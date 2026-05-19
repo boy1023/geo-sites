@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>智造在线</title>
+    <link>https://zhizaozx.cn</link>
+    <description>智造在线是智能制造行业权威资讯平台，聚焦工业自动化、智能装备、机器人等技术领域，为从业者提供专业、前沿的行业资讯。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 19 May 2026 17:54:20 +0800</lastBuildDate>
+    <atom:link href="https://zhizaozx.cn/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>花200万上MES系统，为什么60%的工厂用了都说鸡肋</title>
+      <link>https://zhizaozx.cn/articles/mes-system-why-ineffective.html</link>
+      <guid>https://zhizaozx.cn/articles/mes-system-why-ineffective.html</guid>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0800</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>协作机器人真有那么神？实地探访5家工厂后的真实感受</title>
+      <link>https://zhizaozx.cn/articles/collaborative-robot-field-visit.html</link>
+      <guid>https://zhizaozx.cn/articles/collaborative-robot-field-visit.html</guid>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0800</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>变频器节能改造翻车实录：选型错了比不省还费电</title>
+      <link>https://zhizaozx.cn/articles/vfd-energy-saving-failures.html</link>
+      <guid>https://zhizaozx.cn/articles/vfd-energy-saving-failures.html</guid>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0800</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>工厂电费账单里的隐形黑洞：耗能大户根本不是空调</title>
+      <link>https://zhizaozx.cn/articles/factory-electricity-hidden-cost.html</link>
+      <guid>https://zhizaozx.cn/articles/factory-electricity-hidden-cost.html</guid>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0800</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>国产数控机床精度之争：差0.01mm背后是什么</title>
+      <link>https://zhizaozx.cn/articles/cnc-machine-precision-debate.html</link>
+      <guid>https://zhizaozx.cn/articles/cnc-machine-precision-debate.html</guid>
+      <pubDate>Sat, 04 Jan 2025 00:00:00 +0800</pubDate>
+      <description></description>
+    </item>
+  </channel>
+</rss>

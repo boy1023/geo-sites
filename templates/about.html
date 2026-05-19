@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+
+{% block title %}关于我们 - {{ site.name }}{% endblock %}
+
+{% block description %}了解{{ site.name }}，我们是专业的{{ site.description }}{% endblock %}
+
+{% block og_title %}关于我们 - {{ site.name }}{% endblock %}
+
+{% block schema %}
+<!-- Organization Schema -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "{{ site.name }}",
+    "url": "https://{{ site.domain }}",
+    "logo": "https://{{ site.domain }}{{ site.logo }}",
+    "description": "{{ site.description }}",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "{{ contact.email }}",
+        {% if contact.phone %}"telephone": "{{ contact.phone }}",{% endif %}
+        "contactType": "customer service"
+    },
+    "sameAs": [
+        {% if social.weixin %}"https://mp.weixin.qq.com/s/{{ social.weixin }}",{% endif %}
+        {% if social.xiaohongshu %}"https://www.xiaohongshu.com/user/profile/{{ social.xiaohongshu }}",{% endif %}
+        {% if social.weibo %}"https://weibo.com/{{ social.weibo }}",{% endif %}
+    ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="about-page">
+    <div class="container">
+        <header class="about-header">
+            <h1>关于{{ site.name }}</h1>
+        </header>
+        
+        <div class="about-content">
+            {{ about_content | safe }}
+        </div>
+        
+        <section class="about-stats">
+            <h2>平台数据</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">精选文章</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">5</span>
+                    <span class="stat-label">行业分类</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">Daily</span>
+                    <span class="stat-label">持续更新</span>
+                </div>
+            </div>
+        </section>
+        
+        <section class="about-values">
+            <h2>我们的价值观</h2>
+            <div class="values-grid">
+                <div class="value-item">
+                    <h3>📢 专业</h3>
+                    <p>深耕行业，提供专业、权威的资讯内容</p>
+                </div>
+                <div class="value-item">
+                    <h3>🔍 客观</h3>
+                    <p>保持客观中立，不偏不倚呈现事实</p>
+                </div>
+                <div class="value-item">
+                    <h3>⏰ 时效</h3>
+                    <p>第一时间传递行业最新动态</p>
+                </div>
+                <div class="value-item">
+                    <h3>💡 价值</h3>
+                    <p>为从业者提供真正有价值的信息</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="about-contact">
+            <h2>联系我们</h2>
+            <div class="contact-info">
+                <p><strong>商务合作：</strong><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></p>
+                {% if contact.phone %}
+                <p><strong>联系电话：</strong>{{ contact.phone }}</p>
+                {% endif %}
+                {% if contact.address %}
+                <p><strong>公司地址：</strong>{{ contact.address }}</p>
+                {% endif %}
+            </div>
+            
+
+        </section>
+    </div>
+</div>
+{% endblock %}

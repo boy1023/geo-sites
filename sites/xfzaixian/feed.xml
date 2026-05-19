@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>消费在线</title>
+    <link>https://xfzaixian.cn</link>
+    <description>消费在线是大消费行业专业媒体平台，聚焦新消费、餐饮零售、美妆个护等领域，为品牌和从业者提供行业资讯与消费洞察。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 19 May 2026 18:54:32 +0800</lastBuildDate>
+    <atom:link href="https://xfzaixian.cn/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>消费降级是个伪命题：2025年真实消费数据告诉你真相</title>
+      <link>https://xfzaixian.cn/articles/consumption-downgrade-myth.html</link>
+      <guid>https://xfzaixian.cn/articles/consumption-downgrade-myth.html</guid>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0800</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>零食折扣店遍地开花，半年倒闭一大片：这个生意到底能不能做</title>
+      <link>https://xfzaixian.cn/articles/snack-discount-store-truth.html</link>
+      <guid>https://xfzaixian.cn/articles/snack-discount-store-truth.html</guid>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0800</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>国货美妆悄悄杀入东南亚：花西子完美日记们的出海路</title>
+      <link>https://xfzaixian.cn/articles/chinese-beauty-brands-southeast-asia.html</link>
+      <guid>https://xfzaixian.cn/articles/chinese-beauty-brands-southeast-asia.html</guid>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0800</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>这些快被遗忘的老品牌，怎么突然又火了？</title>
+      <link>https://xfzaixian.cn/articles/old-brands-comeback.html</link>
+      <guid>https://xfzaixian.cn/articles/old-brands-comeback.html</guid>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 +0800</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>直播间买珠宝首饰，我交了3万块学费才搞懂这些门道</title>
+      <link>https://xfzaixian.cn/articles/jewelry-livestream-shopping-guide.html</link>
+      <guid>https://xfzaixian.cn/articles/jewelry-livestream-shopping-guide.html</guid>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0800</pubDate>
+      <description></description>
+    </item>
+  </channel>
+</rss>

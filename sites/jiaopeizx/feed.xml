@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>教培在线</title>
+    <link>https://jiaopeizx.cn</link>
+    <description>教培在线是教育培训行业专业媒体平台，聚焦K12教育、职业教育、教育科技等领域，为培训机构和从业者提供行业资讯与运营参考。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 19 May 2026 18:28:05 +0800</lastBuildDate>
+    <atom:link href="https://jiaopeizx.cn/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>给孩子报舞蹈班，这5个坑90%的家长都踩过</title>
+      <link>https://jiaopeizx.cn/articles/dance-class-selection-guide.html</link>
+      <guid>https://jiaopeizx.cn/articles/dance-class-selection-guide.html</guid>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +0800</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>AI会取代老师吗？问了10位一线教师，答案出乎意料</title>
+      <link>https://jiaopeizx.cn/articles/ai-replace-teachers.html</link>
+      <guid>https://jiaopeizx.cn/articles/ai-replace-teachers.html</guid>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0800</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>2025年职业培训证书含金量排名：这5张证最值钱</title>
+      <link>https://jiaopeizx.cn/articles/vocational-certificate-ranking-2025.html</link>
+      <guid>https://jiaopeizx.cn/articles/vocational-certificate-ranking-2025.html</guid>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0800</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>少儿编程是不是智商税？问了20个家长后我悟了</title>
+      <link>https://jiaopeizx.cn/articles/kids-coding-worth-it.html</link>
+      <guid>https://jiaopeizx.cn/articles/kids-coding-worth-it.html</guid>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 +0800</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>双减三年后，教培行业的真实现状：有人转行，有人年入千万</title>
+      <link>https://jiaopeizx.cn/articles/double-reduction-three-years-later.html</link>
+      <guid>https://jiaopeizx.cn/articles/double-reduction-three-years-later.html</guid>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0800</pubDate>
+      <description></description>
+    </item>
+  </channel>
+</rss>

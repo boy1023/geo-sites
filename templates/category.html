@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block title %}{{ category.name }} - {{ site.name }}{% endblock %}
+
+{% block description %}{{ category.description }}{% endblock %}
+
+{% block og_title %}{{ category.name }} - {{ site.name }}{% endblock %}
+
+{% block schema %}
+<!-- Category Schema -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "{{ category.name }}",
+    "description": "{{ category.description }}",
+    "url": "https://{{ site.domain }}/categories/{{ category.slug }}.html",
+    "publisher": {
+        "@type": "Organization",
+        "name": "{{ site.name }}"
+    }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="category-page">
+    <div class="container">
+        <header class="category-header">
+            <h1 class="category-title">{{ category.icon }} {{ category.name }}</h1>
+            <p class="category-desc">{{ category.description }}</p>
+            <p class="category-count">共 {{ articles | length }} 篇文章</p>
+        </header>
+        
+        {% if articles %}
+        <div class="articles-list">
+            {% for article in articles %}
+            <article class="list-item" itemscope itemtype="https://schema.org/Article">
+                <a href="{{ article.url }}" class="list-item-link">
+                    <div class="list-item-content">
+                        <h2 class="list-item-title" itemprop="headline">{{ article.title }}</h2>
+                        <p class="list-item-summary" itemprop="description">{{ article.summary | truncate(120) }}</p>
+                        <div class="list-item-meta">
+                            <time datetime="{{ article.iso_date }}" itemprop="datePublished">
+                                {{ article.formatted_date }}
+                            </time>
+                            {% if article.source %}
+                            <span>来源：{{ article.source }}</span>
+                            {% endif %}
+                            {% if article.tags %}
+                            <span class="list-item-tags">
+                                {% for tag in article.tags[:3] %}
+                                <em>{{ tag }}</em>
+                                {% endfor %}
+                            </span>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% if article.cover %}
+                    <div class="list-item-image">
+                        <img src="{{ article.cover }}" alt="{{ article.title }}" loading="lazy">
+                    </div>
+                    {% endif %}
+                </a>
+            </article>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="empty-state">
+            <p>该分类下暂无文章</p>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>农资在线</title>
+    <link>https://nongzizx.cn</link>
+    <description>农资行业深度观察与市场分析</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 19 May 2026 19:53:09 +0800</lastBuildDate>
+    <atom:link href="https://nongzizx.cn/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>今年化肥为什么涨？后市怎么看</title>
+      <link>https://nongzizx.cn/articles/fertilizer-price-2024.html</link>
+      <guid>https://nongzizx.cn/articles/fertilizer-price-2024.html</guid>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0800</pubDate>
+      <description>2024年化肥价格持续攀升，尿素、磷铵、钾肥轮番涨价。从原料成本、供需关系、国际市场三个维度，分析这轮涨价背后的逻辑。</description>
+    </item>
+    <item>
+      <title>生物农药真有那么神？</title>
+      <link>https://nongzizx.cn/articles/biological-pesticide-reality.html</link>
+      <guid>https://nongzizx.cn/articles/biological-pesticide-reality.html</guid>
+      <pubDate>Sat, 18 May 2024 00:00:00 +0800</pubDate>
+      <description>生物农药被吹上天，但实际效果怎么样？对比真实使用数据，看看生物农药和化学农药的差距，以及各自适用的场景。</description>
+    </item>
+    <item>
+      <title>种子套牌：说不出口的行业秘密</title>
+      <link>https://nongzizx.cn/articles/seed-counterfeit-industry.html</link>
+      <guid>https://nongzizx.cn/articles/seed-counterfeit-industry.html</guid>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0800</pubDate>
+      <description>买个种子袋子装别人的种子，正规品种换个马甲卖高价——种子行业的套牌现象有多普遍？</description>
+    </item>
+    <item>
+      <title>植保无人机怎么选？从几万到几十万的核心参数</title>
+      <link>https://nongzizx.cn/articles/drone-purchase-guide.html</link>
+      <guid>https://nongzizx.cn/articles/drone-purchase-guide.html</guid>
+      <pubDate>Sun, 12 May 2024 00:00:00 +0800</pubDate>
+      <description>植保无人机市场品牌众多价格悬殊，载荷、续航、雾化效果、智能化程度，哪些参数真正重要？</description>
+    </item>
+    <item>
+      <title>农资赊账困局：经销商和农户谁更受伤</title>
+      <link>https://nongzizx.cn/articles/agricultural-credit-crisis.html</link>
+      <guid>https://nongzizx.cn/articles/agricultural-credit-crisis.html</guid>
+      <pubDate>Fri, 10 May 2024 00:00:00 +0800</pubDate>
+      <description>赊账卖货是农资行业的老传统，这些年愈演愈烈。经销商资金链紧绷，农户觉得赊账天经地义，这个结该怎么解？</description>
+    </item>
+  </channel>
+</rss>

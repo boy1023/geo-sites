@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>母婴在线</title>
+    <link>https://muyingzx.cn</link>
+    <description>母婴行业深度观察与消费指南</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 19 May 2026 19:10:03 +0800</lastBuildDate>
+    <atom:link href="https://muyingzx.cn/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>90后父母消费观变了：不再盲从进口，更看重成分和安全</title>
+      <link>https://muyingzx.cn/articles/post-90s-parent-consumption.html</link>
+      <guid>https://muyingzx.cn/articles/post-90s-parent-consumption.html</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0800</pubDate>
+      <description>90后父母群体的母婴消费观念正在发生深刻变化，从迷信进口品牌转向关注成分配方、安全标准，国产母婴品牌迎来新机遇。</description>
+    </item>
+    <item>
+      <title>辅食添加时间表争议：4个月还是6个月？儿科医生这么说</title>
+      <link>https://muyingzx.cn/articles/complementary-food-timeline.html</link>
+      <guid>https://muyingzx.cn/articles/complementary-food-timeline.html</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0800</pubDate>
+      <description>辅食到底该4个月还是6个月添加？世卫组织和国内专家意见不一致，实际操作中家长该怎么判断？</description>
+    </item>
+    <item>
+      <title>婴儿推车选购避坑：从百元到万元，核心看这几个参数</title>
+      <link>https://muyingzx.cn/articles/baby-stroller-purchase-guide.html</link>
+      <guid>https://muyingzx.cn/articles/baby-stroller-purchase-guide.html</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0800</pubDate>
+      <description>婴儿推车价格从几百到上万，差别到底在哪？资深测评师教你抓住核心参数，不花冤枉钱。</description>
+    </item>
+    <item>
+      <title>早教班到底值不值？从业者说出早教行业真相</title>
+      <link>https://muyingzx.cn/articles/early-education-class-worth-it.html</link>
+      <guid>https://muyingzx.cn/articles/early-education-class-worth-it.html</guid>
+      <pubDate>Sun, 17 May 2026 00:00:00 +0800</pubDate>
+      <description>动辄上万的早教班到底有没有用？从早教行业内部视角，聊聊这个钱该不该花。</description>
+    </item>
+    <item>
+      <title>母婴店套路盘点：那些年我们踩过的销售话术</title>
+      <link>https://muyingzx.cn/articles/maternity-store-traps.html</link>
+      <guid>https://muyingzx.cn/articles/maternity-store-traps.html</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0800</pubDate>
+      <description>母婴店导购的经典套路合集，帮你提前避坑，省下不该花的冤枉钱。</description>
+    </item>
+  </channel>
+</rss>

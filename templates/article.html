@@ -1,0 +1,146 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }} - {{ site.name }}{% endblock %}
+
+{% block description %}{{ article.summary }}{% endblock %}
+
+{% block og_type %}article{% endblock %}
+
+{% block og_title %}{{ article.title }}{% endblock %}
+
+{% block og_description %}{{ article.summary }}{% endblock %}
+
+{% block og_image %}{% if article.cover %}<meta property="og:image" content="{{ site.domain }}{{ article.cover }}">{% endif %}{% endblock %}
+
+{% block twitter_title %}{{ article.title }}{% endblock %}
+
+{% block twitter_description %}{{ article.summary }}{% endblock %}
+
+{% block schema %}
+<!-- Article Schema -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ article.title }}",
+    "description": "{{ article.summary }}",
+    {% if article.cover %}"image": "https://{{ site.domain }}{{ article.cover }}",{% endif %}
+    "author": {
+        "@type": "Organization",
+        "name": "{{ article.author }}",
+        "url": "https://{{ site.domain }}"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "{{ site.name }}",
+        "url": "https://{{ site.domain }}",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://{{ site.domain }}{{ site.logo }}"
+        }
+    },
+    "datePublished": "{{ article.iso_date }}",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://{{ site.domain }}{{ article.url }}"
+    }
+}
+</script>
+
+<!-- Breadcrumb Schema -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "首页",
+            "item": "https://{{ site.domain }}"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "{{ article.category }}",
+            "item": "https://{{ site.domain }}/categories/{{ article.category }}.html"
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "{{ article.title }}"
+        }
+    ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<article class="article-page" itemscope itemtype="https://schema.org/Article">
+    <div class="container">
+        <header class="article-header">
+            <h1 class="article-title" itemprop="headline">{{ article.title }}</h1>
+            
+            <div class="article-meta">
+                <time datetime="{{ article.iso_date }}" itemprop="datePublished">
+                    📅 {{ article.formatted_date }}
+                </time>
+                {% if article.source %}
+                <span class="meta-source">📌 来源：{{ article.source }}</span>
+                {% endif %}
+                <span class="meta-category">📂 <a href="/categories/{{ article.category }}.html">{{ article.category }}</a></span>
+            </div>
+            
+            {% if article.tags %}
+            <div class="article-tags">
+                {% for tag in article.tags %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </header>
+        
+        {% if article.summary %}
+        <div class="article-summary" itemprop="description">
+            <blockquote>{{ article.summary }}</blockquote>
+        </div>
+        {% endif %}
+        
+        <div class="article-body" itemprop="articleBody">
+            {{ article.content | safe }}
+        </div>
+        
+        <footer class="article-footer">
+            <div class="article-author">
+                <span>作者：{{ article.author }}</span>
+            </div>
+        </footer>
+    </div>
+</article>
+
+<!-- 相关文章 -->
+{% if related_articles %}
+<section class="related-section">
+    <div class="container">
+        <h2 class="section-title">相关推荐</h2>
+        <div class="related-grid">
+            {% for related in related_articles %}
+            <article class="related-card">
+                <a href="{{ related.url }}">
+                    <div class="related-image">
+                        {% if related.cover %}
+                        <img src="{{ related.cover }}" alt="{{ related.title }}" loading="lazy">
+                        {% else %}
+                        <div class="related-placeholder">{{ related.category }}</div>
+                        {% endif %}
+                    </div>
+                    <h3>{{ related.title }}</h3>
+                    <time>{{ related.formatted_date }}</time>
+                </a>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block title %}{{ site.name }} - {{ site.description | truncate(50) }}{% endblock %}
+
+{% block og_type %}website{% endblock %}
+
+{% block content %}
+<div class="home-page">
+    <!-- 置顶文章 -->
+    {% if top_article %}
+    <section class="hero-section">
+        <div class="container">
+            <a href="{{ top_article.url }}" class="hero-card">
+                <div class="hero-content">
+                    <span class="hero-category">{{ top_article.category }}</span>
+                    <h1 class="hero-title">{{ top_article.title }}</h1>
+                    <p class="hero-summary">{{ top_article.summary }}</p>
+                    <div class="hero-meta">
+                        <span>{{ top_article.formatted_date }}</span>
+                        {% if top_article.source %}
+                        <span>来源：{{ top_article.source }}</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    {% endif %}
+    
+    <!-- 最新文章 -->
+    <section class="articles-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">最新资讯</h2>
+                <a href="/categories/" class="more-link">查看更多 →</a>
+            </div>
+            
+            <div class="articles-grid">
+                {% for article in articles %}
+                <article class="article-card" itemscope itemtype="https://schema.org/Article">
+                    <a href="{{ article.url }}" class="article-link">
+                        <div class="article-content">
+                            <span class="article-category">{{ article.category }}</span>
+                            <h3 class="article-title" itemprop="headline">{{ article.title }}</h3>
+                            <p class="article-summary" itemprop="description">{{ article.summary | truncate(80) }}</p>
+                            <div class="article-meta">
+                                <time datetime="{{ article.iso_date }}" itemprop="datePublished">{{ article.formatted_date }}</time>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    
+    <!-- 分类导航 -->
+    <section class="categories-section">
+        <div class="container">
+            <h2 class="section-title">行业分类</h2>
+            <div class="categories-grid">
+                {% for cat in categories %}
+                <a href="/categories/{{ cat.slug }}.html" class="category-card">
+                    <span class="category-icon">{{ cat.icon }}</span>
+                    <span class="category-name">{{ cat.name }}</span>
+                    <span class="category-desc">{{ cat.description | truncate(30) }}</span>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}

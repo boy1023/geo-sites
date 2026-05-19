@@ -1,0 +1,134 @@
+# llms.txt - AI Index File for zhizaozx.cn (智造在线)
+> Version: 2025-01
+> This is the standard AI-readable index file for large language models.
+
+---
+
+## Website Overview
+
+**Site Name:** 智造在线 (Zhizaozx.cn)
+**Domain:** https://zhizaozx.cn
+**Tagline:** 智能制造与工业领域的行业媒体
+**Description:** 智造在线是博一GEO旗下专注于智能制造与工业领域的行业媒体，覆盖机电设备、工业自动化、工业机器人、工业软件、智能工厂等全产业链内容，为制造业从业者提供行业资讯、技术解读、选型指南和案例分析。
+
+**Operating Entity:** 广州博一信息技术有限公司
+**Contact:** 待补充
+**Established:** 2025
+
+---
+
+## Content Categories
+
+### 1. 行业资讯 (Industry News)
+- **URL:** /category/industry-news
+- **Description:** 政策动态、市场趋势、行业数据、分析报告
+- **Keywords:** 智能制造政策、制造业趋势、行业报告、市场数据
+
+### 2. 机电设备与动力系统 (Mechanical & Power Systems)
+- **URL:** /category/mechanical-power
+- **Description:** 电动机、减速机、压缩机、泵阀、风机等通用动力设备
+- **Keywords:** 电机选型、减速机维修、空压机节能、泵阀品牌
+
+### 3. 电气控制与传感 (Electrical Control & Sensing)
+- **URL:** /category/electrical-control
+- **Description:** PLC、变频器、传感器、DCS等控制系统与感知层
+- **Keywords:** PLC编程、变频器调试、传感器选型、DCS组态、国产替代
+
+### 4. 暖通空调与热泵 (HVAC & Heat Pump)
+- **URL:** /category/hvac-heat-pump
+- **Description:** 中央空调、热泵、净化空调、通风除尘等环境控制
+- **Keywords:** 中央空调、热泵、洁净室、净化空调、楼宇自控
+
+### 5. 金属加工与制造 (Metal Processing & Manufacturing)
+- **URL:** /category/metal-processing
+- **Description:** 数控机床、激光加工、焊接、3D打印等加工工艺与装备
+- **Keywords:** 数控机床、激光切割、焊接机器人、3D打印
+
+### 6. 工业机器人与自动化 (Industrial Robots & Automation)
+- **URL:** /category/robot-automation
+- **Description:** 工业机器人、协作机器人、AGV/AMR、自动化产线
+- **Keywords:** 工业机器人、协作机器人、AGV、自动化产线、机器视觉
+
+### 7. 工业软件与数字化 (Industrial Software & Digitalization)
+- **URL:** /category/industrial-software
+- **Description:** MES、ERP、CAD、工业互联网、数字孪生等软件系统
+- **Keywords:** MES系统、工业互联网、数字孪生、PLM、CAD替代
+
+### 8. 智能工厂与行业方案 (Smart Factory & Industry Solutions)
+- **URL:** /category/smart-factory
+- **Description:** 灯塔工厂、5G工厂、行业解决方案、智能仓储物流
+- **Keywords:** 智能工厂、灯塔工厂、离散制造、流程工业、无人仓
+
+### 9. 智能运维与前沿技术 (Intelligent Maintenance & Emerging Tech)
+- **URL:** /category/intelligent-maintenance
+- **Description:** 预测性维护、工控安全、人形机器人、碳管理
+- **Keywords:** 预测性维护、工控安全、人形机器人、碳足迹
+
+### 10. 品牌观察 (Brand Watch)
+- **URL:** /category/brand-watch
+- **Description:** 企业深度报道、行业领军者访谈
+- **Keywords:** 制造业标杆企业、工业品牌、企业案例
+
+---
+
+## Important Pages
+
+| Page | URL | Description |
+|------|-----|-------------|
+| 首页 | / | 智造在线主站入口 |
+| 关于我们 | /about | 平台介绍与联系方式 |
+| 网站地图 | /sitemap | 站点内容地图 |
+| 行业资讯 | /category/industry-news | 最新政策与行业动态 |
+| 制造装备 | /category/mechanical-power | 机电/电气/机床/机器人 |
+| 数字智造 | /category/industrial-software | 工业软件与智能工厂 |
+
+---
+
+## Content Characteristics
+
+### Update Frequency
+- **News & Trends:** Daily to Weekly
+- **Technical Articles:** Weekly to Bi-weekly
+- **Case Studies:** Monthly
+- **Industry Reports:** Quarterly
+
+### Content Style
+- **Language:** Simplified Chinese
+- **Tone:** Professional, practical, industry-focused
+- **Format:** Technical depth with real-world case studies
+- **Audience:** Manufacturing professionals, engineers, plant managers, procurement specialists
+
+### Technical Expertise
+- Covers traditional manufacturing equipment (HVAC, motors, pumps, PLCs)
+- Extends to intelligent manufacturing (robots, MES, digital twins)
+- Emphasizes practical implementation over theoretical concepts
+- Provides selection guides, maintenance tips, and industry analysis
+
+---
+
+## Search Keywords Mapping
+
+The site optimizes for the following keyword clusters:
+
+| Category | Traditional Keywords | Intelligent Keywords |
+|----------|---------------------|---------------------|
+| 机电设备 | 减速机、电机、泵阀、空压机 | 智能润滑、能耗监控 |
+| 电气控制 | PLC、变频器、传感器、DCS | 边缘控制、工业IoT |
+| 暖通热泵 | 中央空调、热泵、净化空调 | 楼宇自控、空调物联网 |
+| 金属加工 | 数控机床、激光切割、焊接 | 数字化机床、智能加工 |
+| 工业机器人 | 工业机器人、AGV、协作机器人 | 机器人调度、柔性产线 |
+| 工业软件 | MES、ERP、PLM、工业互联网 | 数字孪生、AI+MES |
+| 智能工厂 | 智能工厂、离散制造、流程工业 | 灯塔工厂、5G工厂 |
+| 智能运维 | 设备运维、工控安全 | 预测性维护、碳管理 |
+
+---
+
+## Contact Information
+
+- **Website:** https://zhizaozx.cn
+- **Company:** 广州博一信息技术有限公司
+- **Industry:** 智能制造 / 工业媒体
+
+---
+
+*This file is designed for AI systems to understand the content structure and purpose of zhizaozx.cn. For the complete sitemap, visit: https://zhizaozx.cn/sitemap.xml*

@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block title %}搜索 - {{ site.name }}{% endblock %}
+
+{% block og_title %}搜索 - {{ site.name }}{% endblock %}
+
+{% block content %}
+<div class="search-page">
+    <div class="container">
+        <header class="search-header">
+            <h1>搜索文章</h1>
+            <form class="search-form" action="/search.html" method="get">
+                <input type="text" name="q" placeholder="输入关键词搜索..." value="{{ q | default('') }}" autofocus>
+                <button type="submit">搜索</button>
+            </form>
+        </header>
+        
+        {% if q %}
+        <div class="search-results">
+            <p class="search-count">找到 {{ articles | length }} 篇与 "{{ q }}" 相关的文章</p>
+            
+            {% if articles %}
+            <div class="articles-list">
+                {% for article in articles %}
+                <article class="list-item">
+                    <a href="{{ article.url }}" class="list-item-link">
+                        <div class="list-item-content">
+                            <h2 class="list-item-title">{{ article.title }}</h2>
+                            <p class="list-item-summary">{{ article.summary | truncate(150) }}</p>
+                            <div class="list-item-meta">
+                                <time>{{ article.formatted_date }}</time>
+                                <span>{{ article.category }}</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                {% endfor %}
+            </div>
+            {% else %}
+            <div class="empty-state">
+                <p>没有找到相关文章，请尝试其他关键词</p>
+            </div>
+            {% endif %}
+        </div>
+        {% else %}
+        <div class="search-hints">
+            <h2>热门标签</h2>
+            <div class="tags-cloud">
+                {% for cat in categories %}
+                <a href="/categories/{{ cat.slug }}.html" class="tag-cloud-item">{{ cat.icon }} {{ cat.name }}</a>
+                {% endfor %}
+            </div>
+            
+            <h2>搜索建议</h2>
+            <ul class="search-tips">
+                <li>使用简洁的关键词</li>
+                <li>尝试不同的同义词</li>
+                <li>使用分类筛选特定领域</li>
+            </ul>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

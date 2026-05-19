@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- SEO基础标签 -->
+    <title>{% block title %}{{ site.name }}{% endblock %}</title>
+    <meta name="description" content="{% block description %}{{ site.description }}{% endblock %}">
+    <meta name="keywords" content="{{ site.keywords }}">
+    <meta name="author" content="{{ site.name }}">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://{{ site.domain }}{{ request_path | default('') }}">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="{% block og_type %}website{% endblock %}">
+    <meta property="og:title" content="{% block og_title %}{{ site.name }}{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}{{ site.description }}{% endblock %}">
+    <meta property="og:url" content="https://{{ site.domain }}">
+    <meta property="og:site_name" content="{{ site.name }}">
+    {% block og_image %}{% endblock %}
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% block twitter_title %}{{ site.name }}{% endblock %}">
+    <meta name="twitter:description" content="{% block twitter_description %}{{ site.description }}{% endblock %}">
+    
+    <!-- 图标 -->
+    <link rel="icon" type="image/x-icon" href="{{ site.favicon }}">
+    <link rel="bookmark" href="{{ site.favicon }}">
+    
+    <!-- 样式 -->
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <!-- 主题色 -->
+    <meta name="theme-color" content="{{ site.primary_color }}">
+    
+    <!-- Schema.org 结构化数据 -->
+    {% block schema %}{% endblock %}
+</head>
+<body>
+    <!-- 头部 -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="/" class="logo">
+                    <img src="{{ site.logo }}" alt="{{ site.name }}" onerror="this.style.display='none'">
+                    <span class="logo-text">{{ site.name }}</span>
+                </a>
+                
+                <nav class="main-nav">
+                    <button class="nav-toggle" aria-label="菜单">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-list">
+                        {% for nav in nav_links %}
+                        {% if nav.dropdown %}
+                        <li class="nav-item has-dropdown">
+                            <a href="{{ nav.url }}" class="nav-link">{{ nav.name }} <span class="dropdown-arrow">▼</span></a>
+                            <ul class="dropdown-menu">
+                                {% for child in nav.children %}
+                                <li class="dropdown-item">
+                                    <a href="{{ child.url }}">{{ child.name }}</a>
+                                    {% if child.tags %}
+                                    <div class="dropdown-tags">
+                                        {% for tag in child.tags %}
+                                        <span class="dropdown-tag">{{ tag }}</span>
+                                        {% endfor %}
+                                    </div>
+                                    {% endif %}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                        {% else %}
+                        <li class="nav-item"><a href="{{ nav.url }}" class="nav-link">{{ nav.name }}</a></li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </nav>
+                
+                <div class="header-search">
+                    <form action="/search.html" method="get">
+                        <input type="text" name="q" placeholder="搜索文章..." aria-label="搜索">
+                        <button type="submit">🔍</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- 面包屑导航 -->
+    {% block breadcrumb %}
+    <nav class="breadcrumb" aria-label="面包屑导航">
+        <div class="container">
+            <ol>
+                {% for item in breadcrumb %}
+                <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+                {% if not loop.last %}<li>/</li>{% endif %}
+                {% endfor %}
+            </ol>
+        </div>
+    </nav>
+    {% endblock %}
+    
+    <!-- 主内容 -->
+    <main class="main-content">
+        {% block content %}{% endblock %}
+    </main>
+    
+    <!-- 页脚 -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-about">
+                    <h3>{{ site.name }}</h3>
+                    <p>{{ site.description }}</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <ul>
+                        {% for nav in nav_links %}
+                        <li><a href="{{ nav.url }}">{{ nav.name }}</a></li>
+                        {% endfor %}
+                        <li><a href="/sitemap.xml">网站地图</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-categories">
+                    <h4>行业分类</h4>
+                    <ul>
+                        {% for cat in categories %}
+                        <li><a href="/categories/{{ cat.slug }}.html">{{ cat.name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>联系我们</h4>
+                    <ul>
+                        {% if contact.email %}
+                        <li>邮箱：{{ contact.email }}</li>
+                        {% endif %}
+                        {% if contact.phone %}
+                        <li>电话：{{ contact.phone }}</li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 {{ site.name }} 版权所有</p>
+                <p>
+                    <a href="/about.html">关于我们</a> | 
+                    <a href="/privacy.html">隐私政策</a> | 
+                    {{ contact.icp }}
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- 脚本 -->
+    <script src="/js/main.js"></script>
+    
+    {% block scripts %}{% endblock %}
+</body>
+</html>
