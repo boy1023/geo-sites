@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>企业名录 - 农资在线</title>
+    <meta name="description" content="农资在线企业名录，收录农资行业20家知名企业信息">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "农资在线企业名录",
+  "description": "收录农资行业20家知名企业",
+  "url": "https://nongzizx.cn/enterprises.html",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "农资在线",
+    "url": "https://nongzizx.cn"
+  }
+}</script>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "农资在线",
+      "item": "https://nongzizx.cn"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "企业名录",
+      "item": "https://nongzizx.cn/enterprises.html"
+    }
+  ]
+}</script>
+    <style>
+        .filter-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0; }
+        .filter-btn { padding: 6px 16px; border: 1px solid #ddd; background: #fff; border-radius: 20px; cursor: pointer; font-size: 0.85rem; transition: all 0.2s; }
+        .filter-btn.active { background: #2E7D32; color: #fff; border-color: #2E7D32; }
+        .filter-btn:hover { border-color: #2E7D32; }
+        .enterprise-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .enterprise-card { background: #fff; border: 1px solid #e8e8e8; border-radius: 8px; padding: 20px; transition: box-shadow 0.2s; }
+        .enterprise-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+        .enterprise-card h3 { margin: 0 0 8px; font-size: 1.1rem; }
+        .enterprise-card h3 a { color: #333; text-decoration: none; }
+        .enterprise-card h3 a:hover { color: #2E7D32; }
+        .short-desc { color: #666; font-size: 0.9rem; line-height: 1.6; margin-bottom: 12px; }
+        .enterprise-meta { display: flex; gap: 12px; font-size: 0.8rem; color: #999; margin-bottom: 8px; }
+        .category-tag { background: #f0f0f0; padding: 2px 8px; border-radius: 4px; }
+        .tags .tag { display: inline-block; background: #f5f5f5; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; color: #888; margin-right: 4px; }
+        .page-header { margin: 30px 0 10px; }
+        .page-header h1 { margin: 0 0 8px; font-size: 1.6rem; }
+        .page-header p { color: #666; margin: 0; }
+    </style>
+</head>
+<body>
+    <nav class="main-nav"><div class="nav-container"><a href="/" class="logo">农资在线</a><div class="nav-links"><a href="/enterprises.html" class="active">企业名录</a><a href="/qna.html">行业问答</a></div></div></nav>
+    <div class="container">
+        <div class="page-header"><h1>企业名录</h1><p>收录农资行业 20 家知名企业</p></div>
+        <div class="filter-bar"><button class="filter-btn active" data-filter="all">全部</button>
+            <button class="filter-btn" data-filter="农药">农药</button>
+            <button class="filter-btn" data-filter="化肥">化肥</button>
+            <button class="filter-btn" data-filter="农机">农机</button>
+            <button class="filter-btn" data-filter="生物肥料">生物肥料</button>
+            <button class="filter-btn" data-filter="种子">种子</button>
+            <button class="filter-btn" data-filter="农药种子">农药种子</button>
+</div>
+        <div class="enterprise-grid">
+        <div class="enterprise-card" data-category="农药">
+            <h3><a href="/enterprises/syngenta-china.html">先正达中国</a></h3>
+            <p class="short-desc">全球农化行业巨头在华业务</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">农药</span>
+                <span class="location">上海市浦东新区</span>
+            </div>
+            <div class="tags"><span class="tag">农药</span><span class="tag">种子</span><span class="tag">植保</span></div>
+        </div>
+        <div class="enterprise-card" data-category="农药">
+            <h3><a href="/enterprises/bayer-crop-china.html">拜耳作物科学中国</a></h3>
+            <p class="short-desc">全球生命科学企业农化业务</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">农药</span>
+                <span class="location">北京市朝阳区</span>
+            </div>
+            <div class="tags"><span class="tag">农药</span><span class="tag">种子</span><span class="tag">数字化农业</span></div>
+        </div>
+        <div class="enterprise-card" data-category="化肥">
+            <h3><a href="/enterprises/sinofert.html">中化化肥</a></h3>
+            <p class="short-desc">中国最大的化肥供应商</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">化肥</span>
+                <span class="location">北京市西城区</span>
+            </div>
+            <div class="tags"><span class="tag">化肥</span><span class="tag">氮肥</span><span class="tag">磷肥</span></div>
+        </div>
+        <div class="enterprise-card" data-category="化肥">
+            <h3><a href="/enterprises/yuntianhua.html">云天化</a></h3>
+            <p class="short-desc">磷化工与化肥龙头企业</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">化肥</span>
+                <span class="location">昆明市西山区</span>
+            </div>
+            <div class="tags"><span class="tag">磷肥</span><span class="tag">磷铵</span><span class="tag">磷化工</span></div>
+        </div>
+        <div class="enterprise-card" data-category="农机">
+            <h3><a href="/enterprises/dji-agriculture.html">大疆农业</a></h3>
+            <p class="short-desc">植保无人机市场领导者</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">农机</span>
+                <span class="location">深圳市南山区</span>
+            </div>
+            <div class="tags"><span class="tag">植保无人机</span><span class="tag">飞防</span><span class="tag">智能农业</span></div>
+        </div>
+        <div class="enterprise-card" data-category="化肥">
+            <h3><a href="/enterprises/xian-da.html">心连心化肥</a></h3>
+            <p class="short-desc">尿素与复合肥大型企业</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">化肥</span>
+                <span class="location">新乡市新乡县</span>
+            </div>
+            <div class="tags"><span class="tag">尿素</span><span class="tag">复合肥</span><span class="tag">高效肥</span></div>
+        </div>
+        <div class="enterprise-card" data-category="化肥">
+            <h3><a href="/enterprises/kingenta.html">金正大</a></h3>
+            <p class="short-desc">复合肥行业龙头</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">化肥</span>
+                <span class="location">临沂市临沭县</span>
+            </div>
+            <div class="tags"><span class="tag">复合肥</span><span class="tag">缓控释肥</span><span class="tag">土壤改良</span></div>
+        </div>
+        <div class="enterprise-card" data-category="生物肥料">
+            <h3><a href="/enterprises/weishi-bio.html">维生生物</a></h3>
+            <p class="short-desc">生物肥料与微生物制剂企业</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">生物肥料</span>
+                <span class="location">济南市历城区</span>
+            </div>
+            <div class="tags"><span class="tag">生物肥料</span><span class="tag">微生物菌剂</span><span class="tag">绿色农业</span></div>
+        </div>
+        <div class="enterprise-card" data-category="种子">
+            <h3><a href="/enterprises/longping-high-tech.html">隆平高科</a></h3>
+            <p class="short-desc">中国种业龙头</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">种子</span>
+                <span class="location">长沙市芙蓉区</span>
+            </div>
+            <div class="tags"><span class="tag">杂交水稻</span><span class="tag">种子</span><span class="tag">育种技术</span></div>
+        </div>
+        <div class="enterprise-card" data-category="农药">
+            <h3><a href="/enterprises/basf-crop-china.html">巴斯夫农业中国</a></h3>
+            <p class="short-desc">全球化工巨头农化业务</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">农药</span>
+                <span class="location">上海市浦东新区</span>
+            </div>
+            <div class="tags"><span class="tag">农药</span><span class="tag">种子处理</span><span class="tag">植保方案</span></div>
+        </div>
+        <div class="enterprise-card" data-category="化肥">
+            <h3><a href="/enterprises/hubei-yihua.html">湖北宜化</a></h3>
+            <p class="short-desc">煤化工与化肥大型企业</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">化肥</span>
+                <span class="location">宜昌市猇亭区</span>
+            </div>
+            <div class="tags"><span class="tag">尿素</span><span class="tag">磷酸二铵</span><span class="tag">煤化工</span></div>
+        </div>
+        <div class="enterprise-card" data-category="种子">
+            <h3><a href="/enterprises/liangyou.html">良友种业</a></h3>
+            <p class="short-desc">蔬菜种子研发企业</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">种子</span>
+                <span class="location">广州市天河区</span>
+            </div>
+            <div class="tags"><span class="tag">蔬菜种子</span><span class="tag">番茄</span><span class="tag">辣椒</span></div>
+        </div>
+        <div class="enterprise-card" data-category="农药种子">
+            <h3><a href="/enterprises/corteva-china.html">科迪华中国</a></h3>
+            <p class="short-desc">全球农业科技企业</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">农药种子</span>
+                <span class="location">上海市浦东新区</span>
+            </div>
+            <div class="tags"><span class="tag">玉米种子</span><span class="tag">杀虫剂</span><span class="tag">农业科技</span></div>
+        </div>
+        <div class="enterprise-card" data-category="农机">
+            <h3><a href="/enterprises/xag.html">极飞科技</a></h3>
+            <p class="short-desc">农业无人机与智慧农业</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">农机</span>
+                <span class="location">广州市黄埔区</span>
+            </div>
+            <div class="tags"><span class="tag">农业无人机</span><span class="tag">智慧农业</span><span class="tag">果树飞防</span></div>
+        </div>
+        <div class="enterprise-card" data-category="化肥">
+            <h3><a href="/enterprises/stanley-fertilizer.html">史丹利化肥</a></h3>
+            <p class="short-desc">复合肥行业知名品牌</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">化肥</span>
+                <span class="location">临沂市临沭县</span>
+            </div>
+            <div class="tags"><span class="tag">复合肥</span><span class="tag">三安复合肥</span><span class="tag">品牌营销</span></div>
+        </div>
+        <div class="enterprise-card" data-category="化肥">
+            <h3><a href="/enterprises/green-fertilizer.html">绿陵化工</a></h3>
+            <p class="short-desc">江苏化肥生产企业</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">化肥</span>
+                <span class="location">宿迁市宿豫区</span>
+            </div>
+            <div class="tags"><span class="tag">复合肥</span><span class="tag">有机肥</span><span class="tag">区域品牌</span></div>
+        </div>
+        <div class="enterprise-card" data-category="农药">
+            <h3><a href="/enterprises/fmc-china.html">富美实中国</a></h3>
+            <p class="short-desc">全球植保企业</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">农药</span>
+                <span class="location">上海市浦东新区</span>
+            </div>
+            <div class="tags"><span class="tag">杀虫剂</span><span class="tag">氯虫苯甲酰胺</span><span class="tag">植保</span></div>
+        </div>
+        <div class="enterprise-card" data-category="农药">
+            <h3><a href="/enterprises/hebei-salute.html">河北冠农</a></h3>
+            <p class="short-desc">农药制剂生产企业</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">农药</span>
+                <span class="location">石家庄市栾城区</span>
+            </div>
+            <div class="tags"><span class="tag">除草剂</span><span class="tag">杀虫剂</span><span class="tag">农药制剂</span></div>
+        </div>
+        <div class="enterprise-card" data-category="种子">
+            <h3><a href="/enterprises/weimeng-seed.html">伟盟种业</a></h3>
+            <p class="short-desc">玉米种子研发企业</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">种子</span>
+                <span class="location">郑州市金水区</span>
+            </div>
+            <div class="tags"><span class="tag">玉米种子</span><span class="tag">抗倒伏</span><span class="tag">耐密植</span></div>
+        </div>
+        <div class="enterprise-card" data-category="农机">
+            <h3><a href="/enterprises/wuyang-machinery.html">五洋农机</a></h3>
+            <p class="short-desc">农机制造企业</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">农机</span>
+                <span class="location">潍坊市坊子区</span>
+            </div>
+            <div class="tags"><span class="tag">播种机</span><span class="tag">收割机</span><span class="tag">中小型农机</span></div>
+        </div></div>
+    </div>
+    <footer><div class="footer-content"><div class="footer-info"><h4>农资在线</h4><ul><li>邮箱：yunying@emoooo.cn</li><li>电话：13025181023</li></ul></div></div><div class="footer-bottom"><p>&copy; 2025 农资在线 版权所有</p><p><a href="/about.html">关于我们</a> | <a href="/privacy.html">隐私政策</a></p></div></footer>
+    <script>document.querySelectorAll('.filter-btn').forEach(btn=>{btn.addEventListener('click',function(){document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));this.classList.add('active');const f=this.dataset.filter;document.querySelectorAll('.enterprise-card').forEach(c=>{c.style.display=(f==='all'||c.dataset.category===f)?'':'none'})})});</script>
+</body></html>

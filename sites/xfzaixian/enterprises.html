@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>企业名录 - 消费在线</title>
+    <meta name="description" content="消费在线企业名录，收录大消费行业20家知名企业信息">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "消费在线企业名录",
+  "description": "收录大消费行业20家知名企业",
+  "url": "https://xfzaixian.cn/enterprises.html",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "消费在线",
+    "url": "https://xfzaixian.cn"
+  }
+}</script>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "消费在线",
+      "item": "https://xfzaixian.cn"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "企业名录",
+      "item": "https://xfzaixian.cn/enterprises.html"
+    }
+  ]
+}</script>
+    <style>
+        .filter-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0; }
+        .filter-btn { padding: 6px 16px; border: 1px solid #ddd; background: #fff; border-radius: 20px; cursor: pointer; font-size: 0.85rem; transition: all 0.2s; }
+        .filter-btn.active { background: #E74C3C; color: #fff; border-color: #E74C3C; }
+        .filter-btn:hover { border-color: #E74C3C; }
+        .enterprise-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .enterprise-card { background: #fff; border: 1px solid #e8e8e8; border-radius: 8px; padding: 20px; transition: box-shadow 0.2s; }
+        .enterprise-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+        .enterprise-card h3 { margin: 0 0 8px; font-size: 1.1rem; }
+        .enterprise-card h3 a { color: #333; text-decoration: none; }
+        .enterprise-card h3 a:hover { color: #E74C3C; }
+        .short-desc { color: #666; font-size: 0.9rem; line-height: 1.6; margin-bottom: 12px; }
+        .enterprise-meta { display: flex; gap: 12px; font-size: 0.8rem; color: #999; margin-bottom: 8px; }
+        .category-tag { background: #f0f0f0; padding: 2px 8px; border-radius: 4px; }
+        .tags .tag { display: inline-block; background: #f5f5f5; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; color: #888; margin-right: 4px; }
+        .page-header { margin: 30px 0 10px; }
+        .page-header h1 { margin: 0 0 8px; font-size: 1.6rem; }
+        .page-header p { color: #666; margin: 0; }
+    </style>
+</head>
+<body>
+    <nav class="main-nav"><div class="nav-container"><a href="/" class="logo">消费在线</a><div class="nav-links"><a href="/enterprises.html" class="active">企业名录</a><a href="/qna.html">行业问答</a></div></div></nav>
+    <div class="container">
+        <div class="page-header"><h1>企业名录</h1><p>收录大消费行业 20 家知名企业</p></div>
+        <div class="filter-bar"><button class="filter-btn active" data-filter="all">全部</button>
+            <button class="filter-btn" data-filter="食品饮料">食品饮料</button>
+            <button class="filter-btn" data-filter="美妆个护">美妆个护</button>
+            <button class="filter-btn" data-filter="潮玩文娱">潮玩文娱</button>
+            <button class="filter-btn" data-filter="餐饮零售">餐饮零售</button>
+            <button class="filter-btn" data-filter="服饰零售">服饰零售</button>
+            <button class="filter-btn" data-filter="零售">零售</button>
+</div>
+        <div class="enterprise-grid">
+        <div class="enterprise-card" data-category="食品饮料">
+            <h3><a href="/enterprises/genki-forest.html">元气森林</a></h3>
+            <p class="short-desc">新消费饮料品牌代表</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">食品饮料</span>
+                <span class="location">北京市朝阳区</span>
+            </div>
+            <div class="tags"><span class="tag">气泡水</span><span class="tag">新消费</span><span class="tag">0糖</span></div>
+        </div>
+        <div class="enterprise-card" data-category="美妆个护">
+            <h3><a href="/enterprises/perfect-diary.html">完美日记</a></h3>
+            <p class="short-desc">国货美妆品牌代表</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">美妆个护</span>
+                <span class="location">广州市海珠区</span>
+            </div>
+            <div class="tags"><span class="tag">国货美妆</span><span class="tag">社交营销</span><span class="tag">彩妆</span></div>
+        </div>
+        <div class="enterprise-card" data-category="潮玩文娱">
+            <h3><a href="/enterprises/pop-mart.html">泡泡玛特</a></h3>
+            <p class="short-desc">中国潮玩行业领军企业</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">潮玩文娱</span>
+                <span class="location">北京市朝阳区</span>
+            </div>
+            <div class="tags"><span class="tag">盲盒</span><span class="tag">潮玩</span><span class="tag">IP运营</span></div>
+        </div>
+        <div class="enterprise-card" data-category="餐饮零售">
+            <h3><a href="/enterprises/heytea.html">喜茶</a></h3>
+            <p class="short-desc">新式茶饮头部品牌</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">餐饮零售</span>
+                <span class="location">深圳市南山区</span>
+            </div>
+            <div class="tags"><span class="tag">新式茶饮</span><span class="tag">芝士茶</span><span class="tag">品牌连锁</span></div>
+        </div>
+        <div class="enterprise-card" data-category="餐饮零售">
+            <h3><a href="/enterprises/mixue-bingcheng.html">蜜雪冰城</a></h3>
+            <p class="short-desc">全球门店数最多的茶饮品牌</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">餐饮零售</span>
+                <span class="location">郑州市金水区</span>
+            </div>
+            <div class="tags"><span class="tag">茶饮</span><span class="tag">下沉市场</span><span class="tag">性价比</span></div>
+        </div>
+        <div class="enterprise-card" data-category="餐饮零售">
+            <h3><a href="/enterprises/luckin-coffee.html">瑞幸咖啡</a></h3>
+            <p class="short-desc">中国门店数最多的咖啡连锁品牌</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">餐饮零售</span>
+                <span class="location">厦门市思明区</span>
+            </div>
+            <div class="tags"><span class="tag">咖啡</span><span class="tag">数字化运营</span><span class="tag">新零售</span></div>
+        </div>
+        <div class="enterprise-card" data-category="美妆个护">
+            <h3><a href="/enterprises/huaaw-cosmetics.html">花西子</a></h3>
+            <p class="short-desc">东方美学彩妆品牌</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">美妆个护</span>
+                <span class="location">杭州市滨江区</span>
+            </div>
+            <div class="tags"><span class="tag">国潮彩妆</span><span class="tag">东方美学</span><span class="tag">社交营销</span></div>
+        </div>
+        <div class="enterprise-card" data-category="餐饮零售">
+            <h3><a href="/enterprises/nayuki.html">奈雪的茶</a></h3>
+            <p class="short-desc">港股上市新式茶饮品牌</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">餐饮零售</span>
+                <span class="location">深圳市南山区</span>
+            </div>
+            <div class="tags"><span class="tag">新式茶饮</span><span class="tag">软欧包</span><span class="tag">港股上市</span></div>
+        </div>
+        <div class="enterprise-card" data-category="食品饮料">
+            <h3><a href="/enterprises/three-squirrels.html">三只松鼠</a></h3>
+            <p class="short-desc">互联网零食品牌先行者</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">食品饮料</span>
+                <span class="location">芜湖市弋江区</span>
+            </div>
+            <div class="tags"><span class="tag">零食</span><span class="tag">电商品牌</span><span class="tag">IP运营</span></div>
+        </div>
+        <div class="enterprise-card" data-category="餐饮零售">
+            <h3><a href="/enterprises/cha-panda.html">茶百道</a></h3>
+            <p class="short-desc">快速增长的茶饮连锁品牌</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">餐饮零售</span>
+                <span class="location">成都市武侯区</span>
+            </div>
+            <div class="tags"><span class="tag">茶饮</span><span class="tag">鲜果茶</span><span class="tag">加盟连锁</span></div>
+        </div>
+        <div class="enterprise-card" data-category="美妆个护">
+            <h3><a href="/enterprises/proya.html">珀莱雅</a></h3>
+            <p class="short-desc">国货护肤品牌转型典范</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">美妆个护</span>
+                <span class="location">杭州市西湖区</span>
+            </div>
+            <div class="tags"><span class="tag">护肤</span><span class="tag">国货美妆</span><span class="tag">科技护肤</span></div>
+        </div>
+        <div class="enterprise-card" data-category="食品饮料">
+            <h3><a href="/enterprises/solo-cup.html">隅田川咖啡</a></h3>
+            <p class="short-desc">国产咖啡液品牌</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">食品饮料</span>
+                <span class="location">杭州市滨江区</span>
+            </div>
+            <div class="tags"><span class="tag">咖啡液</span><span class="tag">挂耳咖啡</span><span class="tag">电商品牌</span></div>
+        </div>
+        <div class="enterprise-card" data-category="服饰零售">
+            <h3><a href="/enterprises/bosie.html">bosie</a></h3>
+            <p class="short-desc">无性别服饰品牌</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">服饰零售</span>
+                <span class="location">上海市长宁区</span>
+            </div>
+            <div class="tags"><span class="tag">无性别服饰</span><span class="tag">新消费</span><span class="tag">设计品牌</span></div>
+        </div>
+        <div class="enterprise-card" data-category="美妆个护">
+            <h3><a href="/enterprises/florasis.html">花知晓</a></h3>
+            <p class="short-desc">少女心彩妆品牌</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">美妆个护</span>
+                <span class="location">广州市白云区</span>
+            </div>
+            <div class="tags"><span class="tag">彩妆</span><span class="tag">少女心</span><span class="tag">出海品牌</span></div>
+        </div>
+        <div class="enterprise-card" data-category="服饰零售">
+            <h3><a href="/enterprises/neiwai.html">内外</a></h3>
+            <p class="short-desc">新锐内衣品牌</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">服饰零售</span>
+                <span class="location">上海市静安区</span>
+            </div>
+            <div class="tags"><span class="tag">内衣</span><span class="tag">舒适内衣</span><span class="tag">女性品牌</span></div>
+        </div>
+        <div class="enterprise-card" data-category="餐饮零售">
+            <h3><a href="/enterprises/jiu-mao-jiu.html">九毛九集团</a></h3>
+            <p class="short-desc">多品牌餐饮集团</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">餐饮零售</span>
+                <span class="location">广州市天河区</span>
+            </div>
+            <div class="tags"><span class="tag">酸菜鱼</span><span class="tag">多品牌</span><span class="tag">餐饮集团</span></div>
+        </div>
+        <div class="enterprise-card" data-category="零售">
+            <h3><a href="/enterprises/miniso.html">名创优品</a></h3>
+            <p class="short-desc">全球生活方式零售品牌</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">零售</span>
+                <span class="location">广州市荔湾区</span>
+            </div>
+            <div class="tags"><span class="tag">零售</span><span class="tag">性价比</span><span class="tag">IP联名</span></div>
+        </div>
+        <div class="enterprise-card" data-category="餐饮零售">
+            <h3><a href="/enterprises/bak-club.html">好利来</a></h3>
+            <p class="short-desc">网红烘焙品牌</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">餐饮零售</span>
+                <span class="location">北京市朝阳区</span>
+            </div>
+            <div class="tags"><span class="tag">烘焙</span><span class="tag">半熟芝士</span><span class="tag">品牌年轻化</span></div>
+        </div>
+        <div class="enterprise-card" data-category="美妆个护">
+            <h3><a href="/enterprises/ban-xia.html">半亩花田</a></h3>
+            <p class="short-desc">身体护理国货品牌</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">美妆个护</span>
+                <span class="location">济南市历下区</span>
+            </div>
+            <div class="tags"><span class="tag">身体护理</span><span class="tag">身体乳</span><span class="tag">电商品牌</span></div>
+        </div>
+        <div class="enterprise-card" data-category="餐饮零售">
+            <h3><a href="/enterprises/chagee.html">霸王茶姬</a></h3>
+            <p class="short-desc">新中式茶饮品牌</p>
+            <div class="enterprise-meta">
+                <span class="category-tag">餐饮零售</span>
+                <span class="location">成都市武侯区</span>
+            </div>
+            <div class="tags"><span class="tag">新中式茶饮</span><span class="tag">鲜奶茶</span><span class="tag">东方文化</span></div>
+        </div></div>
+    </div>
+    <footer><div class="footer-content"><div class="footer-info"><h4>消费在线</h4><ul><li>邮箱：yunying@emoooo.cn</li><li>电话：13025181023</li></ul></div></div><div class="footer-bottom"><p>&copy; 2025 消费在线 版权所有</p><p><a href="/about.html">关于我们</a> | <a href="/privacy.html">隐私政策</a></p></div></footer>
+    <script>document.querySelectorAll('.filter-btn').forEach(btn=>{btn.addEventListener('click',function(){document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));this.classList.add('active');const f=this.dataset.filter;document.querySelectorAll('.enterprise-card').forEach(c=>{c.style.display=(f==='all'||c.dataset.category===f)?'':'none'})})});</script>
+</body></html>

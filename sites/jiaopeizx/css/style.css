@@ -1229,3 +1229,61 @@ h4 { font-size: 1.125rem; }
         font-size: 0.9375rem;
     }
 }
+
+/* QNA Page Styles */
+.qna-page .page-header {
+    text-align: center;
+    padding: 40px 0 30px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 30px;
+}
+.qna-page .page-header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.qna-page .page-desc {
+    color: #666;
+    font-size: 15px;
+}
+.qna-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.qna-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fafafa;
+    border-radius: 8px;
+    border-left: 4px solid #0066CC;
+}
+.qna-item:hover {
+    background: #f5f5f5;
+}
+.qna-question {
+    font-size: 17px;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+.qna-badge {
+    display: inline-block;
+    background: #0066CC;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.qna-answer {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #444;
+}
+.qna-note {
+    text-align: center;
+    color: #999;
+    font-size: 13px;
+    margin-top: 40px;
+    padding: 20px 0;
+    border-top: 1px solid #e8e8e8;
+}
