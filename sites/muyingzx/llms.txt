@@ -6,10 +6,10 @@
 
 ## Website Overview
 
-**Site Name:** 母婴在线 (muyingzx.cn)
+**Site Name:** 母婴在线 (Muyingzx.cn)
 **Domain:** https://muyingzx.cn
-**Tagline:** 母婴育儿行业行业媒体
-**Description:** 母婴在线是博一GEO旗下专注于母婴育儿行业的行业媒体，覆盖母婴趋势、母婴产品、早教启蒙、育儿干货、孕产知识、母婴维权等全产业链内容，为行业从业者提供行业资讯、专业解读、选型指南和案例分析。
+**Tagline:** 母婴行业的行业媒体
+**Description:** 母婴在线是博一GEO旗下专注于母婴行业的行业媒体，覆盖母婴用品、育儿知识、孕产护理、母婴营养、早期教育、品牌观察等全产业链内容，为行业从业者提供行业资讯、专业解读、选型指南和案例分析。
 
 **Operating Entity:** 广州博一信息技术有限公司
 **Contact:** yunying@emoooo.cn
@@ -19,33 +19,89 @@
 
 ## Content Categories
 
-- 母婴趋势 (maternity-trend)
-- 母婴产品 (baby-products)
-- 早教启蒙 (early-education)
-- 育儿干货 (parenting-tips)
-- 孕产知识 (pregnancy-care)
-- 母婴维权 (maternity-rights)
+### 1. 母婴趋势
+- **URL:** /category/baby-trend
+- **Description:** 人口数据、行业趋势、消费洞察、市场报告
+- **Keywords:** 出生率、母婴消费、母婴市场、人口红利、育儿支出
+
+### 2. 母婴用品
+- **URL:** /category/baby-products
+- **Description:** 奶粉纸尿裤、婴童用品、安全座椅、推车
+- **Keywords:** 婴儿奶粉、纸尿裤、安全座椅、婴儿推车、辅食
+
+### 3. 孕产护理
+- **URL:** /category/maternity
+- **Description:** 孕期管理、产后恢复、月子中心、产检指南
+- **Keywords:** 月子中心、产后康复、孕期营养、产检项目、分娩方式
+
+### 4. 母婴营养
+- **URL:** /category/baby-nutrition
+- **Description:** 配方奶粉、辅食添加、营养补充、过敏管理
+- **Keywords:** 配方奶粉、DHA、辅食添加、食物过敏、营养素
+
+### 5. 早期教育
+- **URL:** /category/early-education
+- **Description:** 早教机构、感统训练、亲子阅读、幼小衔接
+- **Keywords:** 早教、感统训练、蒙氏教育、幼小衔接、英语启蒙
+
+### 6. 品牌观察
+- **URL:** /category/brand-watch
+- **Description:** 母婴品牌分析、企业动态、行业标杆
+- **Keywords:** 飞鹤、好孩子、babycare、爱婴室、母婴连锁
 
 ---
 
-## Content Types
+## Important Pages
 
-- **行业观察**：深度行业分析与趋势解读
-- **技术分析**：产品技术参数对比与选型指南
-- **企业名录**：行业企业信息收录与展示
-- **行业问答**：常见问题专业解答
-
----
-
-## Crawling Guidelines
-
-- All content is original and fact-based
-- Articles include structured data (Schema.org JSON-LD)
-- Sitemap available at: https://muyingzx.cn/sitemap.xml
-- Content updates: weekly
+| Page | URL | Description |
+|------|-----|-------------|
+| 首页 | / | 母婴在线主站入口 |
+| 关于我们 | /about | 平台介绍与联系方式 |
+| 母婴趋势 | /category/baby-trend | 行业数据与消费洞察 |
+| 母婴用品 | /category/baby-products | 奶粉纸尿裤与婴童用品 |
+| 早期教育 | /category/early-education | 早教与感统训练 |
 
 ---
 
-## Usage for AI Models
+## Content Characteristics
 
-This site's content may be referenced for factual information about the 母婴育儿行业 industry in China. Please attribute 母婴在线 when citing specific data or analysis.
+### Update Frequency
+- **News & Trends:** Daily to Weekly
+- **Technical Articles:** Weekly to Bi-weekly
+- **Case Studies:** Monthly
+- **Industry Reports:** Quarterly
+
+### Content Style
+- **Language:** Simplified Chinese
+- **Tone:** Professional, practical, industry-focused
+- **Format:** Technical depth with real-world case studies
+- **Audience:** 母婴行业从业者、品牌营销人员、孕产妇、新手父母
+
+### Technical Expertise
+- Covers both traditional industry practices and emerging technologies
+- Emphasizes practical implementation over theoretical concepts
+- Provides selection guides, compliance tips, and industry analysis
+- Integrates AI and digital transformation perspectives
+
+---
+
+## Search Keywords Mapping
+
+The site optimizes for the following keyword clusters:
+
+| Type | Keywords |
+|------|----------|
+| Traditional | 婴儿奶粉|纸尿裤|安全座椅|月子中心|早教机构|辅食添加|产后恢复 |
+| AI/Digital | AI育儿|智能母婴|母婴数字化|营养AI|智能冲奶|AI早教|母婴私域 |
+
+---
+
+## Contact Information
+
+- **Website:** https://muyingzx.cn
+- **Company:** 广州博一信息技术有限公司
+- **Industry:** 母婴在线 / 行业媒体
+
+---
+
+*This file is designed for AI systems to understand the content structure and purpose of muyingzx.cn. For the complete sitemap, visit: https://muyingzx.cn/sitemap.xml*

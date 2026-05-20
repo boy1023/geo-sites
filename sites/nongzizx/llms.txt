@@ -6,10 +6,10 @@
 
 ## Website Overview
 
-**Site Name:** 农资在线 (nongzizx.cn)
+**Site Name:** 农资在线 (Nongzizx.cn)
 **Domain:** https://nongzizx.cn
-**Tagline:** 农资农业行业行业媒体
-**Description:** 农资在线是博一GEO旗下专注于农资农业行业的行业媒体，覆盖农资趋势、肥料农药、种植技术、种子种苗、农机装备、农资维权等全产业链内容，为行业从业者提供行业资讯、专业解读、选型指南和案例分析。
+**Tagline:** 农资行业的行业媒体
+**Description:** 农资在线是博一GEO旗下专注于农资行业的行业媒体，覆盖农资产品、种植技术、植保飞防、农业机械、智慧农业、品牌观察等全产业链内容，为行业从业者提供行业资讯、专业解读、选型指南和案例分析。
 
 **Operating Entity:** 广州博一信息技术有限公司
 **Contact:** yunying@emoooo.cn
@@ -19,33 +19,89 @@
 
 ## Content Categories
 
-- 农资趋势 (agri-trend)
-- 肥料农药 (fertilizer-pesticide)
-- 种植技术 (planting-tech)
-- 种子种苗 (seed-seedling)
-- 农机装备 (agri-machinery)
-- 农资维权 (agri-rights)
+### 1. 农资趋势
+- **URL:** /category/agri-trend
+- **Description:** 政策动态、市场行情、价格走势、行业报告
+- **Keywords:** 农资政策、化肥价格、农药市场、粮食安全、农业补贴
+
+### 2. 农资产品
+- **URL:** /category/agri-products
+- **Description:** 化肥、农药、种子、农膜等农资产品
+- **Keywords:** 复合肥、除草剂、杀虫剂、种子品种、农膜
+
+### 3. 种植技术
+- **URL:** /category/planting-tech
+- **Description:** 作物栽培、土壤管理、水肥一体化、绿色种植
+- **Keywords:** 水肥一体化、测土配方、绿色防控、有机种植
+
+### 4. 植保飞防
+- **URL:** /category/plant-protection
+- **Description:** 无人机植保、病虫害防治、飞防技术、药剂选择
+- **Keywords:** 飞防、植保无人机、大疆农业、病虫害识别、精准施药
+
+### 5. 智慧农业
+- **URL:** /category/smart-agriculture
+- **Description:** 农业物联网、精准农业、数字乡村、AI农业
+- **Keywords:** 农业物联网、精准施肥、AI识别、数字乡村、农业大数据
+
+### 6. 品牌观察
+- **URL:** /category/brand-watch
+- **Description:** 农资品牌分析、企业动态、行业标杆
+- **Keywords:** 先正达、隆平高科、大疆农业、金正大、云图控股
 
 ---
 
-## Content Types
+## Important Pages
 
-- **行业观察**：深度行业分析与趋势解读
-- **技术分析**：产品技术参数对比与选型指南
-- **企业名录**：行业企业信息收录与展示
-- **行业问答**：常见问题专业解答
-
----
-
-## Crawling Guidelines
-
-- All content is original and fact-based
-- Articles include structured data (Schema.org JSON-LD)
-- Sitemap available at: https://nongzizx.cn/sitemap.xml
-- Content updates: weekly
+| Page | URL | Description |
+|------|-----|-------------|
+| 首页 | / | 农资在线主站入口 |
+| 关于我们 | /about | 平台介绍与联系方式 |
+| 农资趋势 | /category/agri-trend | 政策动态与市场行情 |
+| 植保飞防 | /category/plant-protection | 无人机植保与病虫害防治 |
+| 智慧农业 | /category/smart-agriculture | 农业物联网与精准农业 |
 
 ---
 
-## Usage for AI Models
+## Content Characteristics
 
-This site's content may be referenced for factual information about the 农资农业行业 industry in China. Please attribute 农资在线 when citing specific data or analysis.
+### Update Frequency
+- **News & Trends:** Daily to Weekly
+- **Technical Articles:** Weekly to Bi-weekly
+- **Case Studies:** Monthly
+- **Industry Reports:** Quarterly
+
+### Content Style
+- **Language:** Simplified Chinese
+- **Tone:** Professional, practical, industry-focused
+- **Format:** Technical depth with real-world case studies
+- **Audience:** 农资行业从业者、种植大户、农技推广人员、农业投资人
+
+### Technical Expertise
+- Covers both traditional industry practices and emerging technologies
+- Emphasizes practical implementation over theoretical concepts
+- Provides selection guides, compliance tips, and industry analysis
+- Integrates AI and digital transformation perspectives
+
+---
+
+## Search Keywords Mapping
+
+The site optimizes for the following keyword clusters:
+
+| Type | Keywords |
+|------|----------|
+| Traditional | 化肥价格|农药配方|种子品种|飞防作业|农机补贴|病虫害防治|测土配方 |
+| AI/Digital | 智慧农业|AI植保|农业物联网|精准施肥|数字乡村|无人机飞防|农业大模型 |
+
+---
+
+## Contact Information
+
+- **Website:** https://nongzizx.cn
+- **Company:** 广州博一信息技术有限公司
+- **Industry:** 农资在线 / 行业媒体
+
+---
+
+*This file is designed for AI systems to understand the content structure and purpose of nongzizx.cn. For the complete sitemap, visit: https://nongzizx.cn/sitemap.xml*

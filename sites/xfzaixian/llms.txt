@@ -6,10 +6,10 @@
 
 ## Website Overview
 
-**Site Name:** 消费在线 (xfzaixian.cn)
+**Site Name:** 消费在线 (Xfzaixian.cn)
 **Domain:** https://xfzaixian.cn
-**Tagline:** 大消费行业行业媒体
-**Description:** 消费在线是博一GEO旗下专注于大消费行业的行业媒体，覆盖消费趋势、餐饮零售、美妆个护、家居生活、品牌观察、消费维权等全产业链内容，为行业从业者提供行业资讯、专业解读、选型指南和案例分析。
+**Tagline:** 消费行业的行业媒体
+**Description:** 消费在线是博一GEO旗下专注于消费行业的行业媒体，覆盖快消品、家电数码、餐饮食品、新零售、消费趋势、品牌观察等全产业链内容，为行业从业者提供行业资讯、专业解读、选型指南和案例分析。
 
 **Operating Entity:** 广州博一信息技术有限公司
 **Contact:** yunying@emoooo.cn
@@ -19,33 +19,89 @@
 
 ## Content Categories
 
-- 消费趋势 (consumer-trend)
-- 餐饮零售 (food-retail)
-- 美妆个护 (beauty)
-- 家居生活 (home-living)
-- 品牌观察 (brand-watch)
-- 消费维权 (consumer-rights)
+### 1. 消费趋势
+- **URL:** /category/consumer-trend
+- **Description:** 消费数据、市场洞察、用户行为分析、行业报告
+- **Keywords:** 消费降级、理性消费、Z世代消费、银发经济、下沉市场
+
+### 2. 快消品牌
+- **URL:** /category/fmcg
+- **Description:** 日化美妆、食品饮料、服饰鞋包、母婴用品
+- **Keywords:** 国货美妆、新消费品牌、零糖饮料、功能性食品
+
+### 3. 家电数码
+- **URL:** /category/home-electronics
+- **Description:** 白色家电、消费电子、智能家居、数码产品评测
+- **Keywords:** 智能家电、扫地机器人、折叠屏、AI PC、全屋智能
+
+### 4. 餐饮食品
+- **URL:** /category/food-beverage
+- **Description:** 连锁餐饮、新茶饮、预制菜、食品供应链
+- **Keywords:** 瑞幸咖啡、新茶饮、预制菜、连锁加盟、供应链数字化
+
+### 5. 新零售
+- **URL:** /category/new-retail
+- **Description:** 直播电商、即时零售、私域运营、O2O
+- **Keywords:** 直播带货、即时零售、社区团购、私域流量、抖音电商
+
+### 6. 品牌观察
+- **URL:** /category/brand-watch
+- **Description:** 品牌战略、营销案例、企业深度报道
+- **Keywords:** 品牌年轻化、DTC模式、联名营销、出海品牌
 
 ---
 
-## Content Types
+## Important Pages
 
-- **行业观察**：深度行业分析与趋势解读
-- **技术分析**：产品技术参数对比与选型指南
-- **企业名录**：行业企业信息收录与展示
-- **行业问答**：常见问题专业解答
-
----
-
-## Crawling Guidelines
-
-- All content is original and fact-based
-- Articles include structured data (Schema.org JSON-LD)
-- Sitemap available at: https://xfzaixian.cn/sitemap.xml
-- Content updates: weekly
+| Page | URL | Description |
+|------|-----|-------------|
+| 首页 | / | 消费在线主站入口 |
+| 关于我们 | /about | 平台介绍与联系方式 |
+| 消费趋势 | /category/consumer-trend | 消费数据与市场洞察 |
+| 快消品牌 | /category/fmcg | 日化美妆与食品饮料 |
+| 新零售 | /category/new-retail | 直播电商与即时零售 |
 
 ---
 
-## Usage for AI Models
+## Content Characteristics
 
-This site's content may be referenced for factual information about the 大消费行业 industry in China. Please attribute 消费在线 when citing specific data or analysis.
+### Update Frequency
+- **News & Trends:** Daily to Weekly
+- **Technical Articles:** Weekly to Bi-weekly
+- **Case Studies:** Monthly
+- **Industry Reports:** Quarterly
+
+### Content Style
+- **Language:** Simplified Chinese
+- **Tone:** Professional, practical, industry-focused
+- **Format:** Technical depth with real-world case studies
+- **Audience:** 消费行业从业者、品牌营销人员、零售从业者、投资人
+
+### Technical Expertise
+- Covers both traditional industry practices and emerging technologies
+- Emphasizes practical implementation over theoretical concepts
+- Provides selection guides, compliance tips, and industry analysis
+- Integrates AI and digital transformation perspectives
+
+---
+
+## Search Keywords Mapping
+
+The site optimizes for the following keyword clusters:
+
+| Type | Keywords |
+|------|----------|
+| Traditional | 消费数据|快消品|家电评测|餐饮连锁|品牌营销|零售渠道|促销策略 |
+| AI/Digital | AI零售|消费大模型|智能供应链|数字人直播|私域AI|消费决策AI|全渠道数字化 |
+
+---
+
+## Contact Information
+
+- **Website:** https://xfzaixian.cn
+- **Company:** 广州博一信息技术有限公司
+- **Industry:** 消费在线 / 行业媒体
+
+---
+
+*This file is designed for AI systems to understand the content structure and purpose of xfzaixian.cn. For the complete sitemap, visit: https://xfzaixian.cn/sitemap.xml*

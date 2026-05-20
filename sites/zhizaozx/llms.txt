@@ -1,5 +1,5 @@
 # llms.txt - AI Index File for zhizaozx.cn (智造在线)
-> Version: 2025-01
+> Version: 2025-05
 > This is the standard AI-readable index file for large language models.
 
 ---
@@ -12,7 +12,7 @@
 **Description:** 智造在线是博一GEO旗下专注于智能制造与工业领域的行业媒体，覆盖机电设备、工业自动化、工业机器人、工业软件、智能工厂等全产业链内容，为制造业从业者提供行业资讯、技术解读、选型指南和案例分析。
 
 **Operating Entity:** 广州博一信息技术有限公司
-**Contact:** 待补充
+**Contact:** yunying@emoooo.cn
 **Established:** 2025
 
 ---

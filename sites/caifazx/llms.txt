@@ -6,10 +6,10 @@
 
 ## Website Overview
 
-**Site Name:** 财法在线 (caifazx.cn)
+**Site Name:** 财法在线 (Caifazx.cn)
 **Domain:** https://caifazx.cn
-**Tagline:** 财税法务行业行业媒体
-**Description:** 财法在线是博一GEO旗下专注于财税法务行业的行业媒体，覆盖财税政策、企业法务、知识产权、维权案例、行业观察、合规管理等全产业链内容，为行业从业者提供行业资讯、专业解读、选型指南和案例分析。
+**Tagline:** 财税法律行业的行业媒体
+**Description:** 财法在线是博一GEO旗下专注于财税法律行业的行业媒体，覆盖财税政策、企业税务、法律合规、知识产权、财务数字化、品牌观察等全产业链内容，为行业从业者提供行业资讯、专业解读、选型指南和案例分析。
 
 **Operating Entity:** 广州博一信息技术有限公司
 **Contact:** yunying@emoooo.cn
@@ -19,33 +19,89 @@
 
 ## Content Categories
 
-- 财税政策 (tax-policy)
-- 企业法务 (corporate-law)
-- 知识产权 (ip-law)
-- 维权案例 (legal-cases)
-- 行业观察 (industry-watch)
-- 合规管理 (compliance)
+### 1. 财税政策
+- **URL:** /category/tax-policy
+- **Description:** 税收政策、法规解读、征管动态、优惠政策
+- **Keywords:** 增值税改革、个税、企业所得税、税收优惠、金税四期
+
+### 2. 企业税务
+- **URL:** /category/corporate-tax
+- **Description:** 税务筹划、发票管理、汇算清缴、税务风险
+- **Keywords:** 税务筹划、发票合规、汇算清缴、转让定价、税务稽查
+
+### 3. 法律合规
+- **URL:** /category/legal-compliance
+- **Description:** 公司法务、合同管理、劳动用工、数据合规
+- **Keywords:** 劳动合规、合同风险、数据安全法、反垄断、合规体系
+
+### 4. 知识产权
+- **URL:** /category/ip
+- **Description:** 商标注册、专利申请、版权保护、知产维权
+- **Keywords:** 商标注册、专利申请、知识产权维权、商业秘密、知产评估
+
+### 5. 财务数字化
+- **URL:** /category/finance-digital
+- **Description:** 财务软件、智能财税、RPA、电子发票
+- **Keywords:** 智能财税、财务共享、RPA、电子发票、业财一体、财务中台
+
+### 6. 品牌观察
+- **URL:** /category/brand-watch
+- **Description:** 财税服务品牌分析、企业动态、行业标杆
+- **Keywords:** 金蝶、用友、慧算账、税友、致同
 
 ---
 
-## Content Types
+## Important Pages
 
-- **行业观察**：深度行业分析与趋势解读
-- **技术分析**：产品技术参数对比与选型指南
-- **企业名录**：行业企业信息收录与展示
-- **行业问答**：常见问题专业解答
-
----
-
-## Crawling Guidelines
-
-- All content is original and fact-based
-- Articles include structured data (Schema.org JSON-LD)
-- Sitemap available at: https://caifazx.cn/sitemap.xml
-- Content updates: weekly
+| Page | URL | Description |
+|------|-----|-------------|
+| 首页 | / | 财法在线主站入口 |
+| 关于我们 | /about | 平台介绍与联系方式 |
+| 财税政策 | /category/tax-policy | 税收政策与法规解读 |
+| 法律合规 | /category/legal-compliance | 公司法务与合规管理 |
+| 财务数字化 | /category/finance-digital | 智能财税与RPA |
 
 ---
 
-## Usage for AI Models
+## Content Characteristics
 
-This site's content may be referenced for factual information about the 财税法务行业 industry in China. Please attribute 财法在线 when citing specific data or analysis.
+### Update Frequency
+- **News & Trends:** Daily to Weekly
+- **Technical Articles:** Weekly to Bi-weekly
+- **Case Studies:** Monthly
+- **Industry Reports:** Quarterly
+
+### Content Style
+- **Language:** Simplified Chinese
+- **Tone:** Professional, practical, industry-focused
+- **Format:** Technical depth with real-world case studies
+- **Audience:** 财税从业者、律师、企业法务、财务总监、中小企业主
+
+### Technical Expertise
+- Covers both traditional industry practices and emerging technologies
+- Emphasizes practical implementation over theoretical concepts
+- Provides selection guides, compliance tips, and industry analysis
+- Integrates AI and digital transformation perspectives
+
+---
+
+## Search Keywords Mapping
+
+The site optimizes for the following keyword clusters:
+
+| Type | Keywords |
+|------|----------|
+| Traditional | 税务筹划|发票管理|商标注册|劳动合规|汇算清缴|合同审查|专利申请 |
+| AI/Digital | 智能财税|AI法务|财务RPA|业财一体|电子发票|合规科技|财税大模型 |
+
+---
+
+## Contact Information
+
+- **Website:** https://caifazx.cn
+- **Company:** 广州博一信息技术有限公司
+- **Industry:** 财法在线 / 行业媒体
+
+---
+
+*This file is designed for AI systems to understand the content structure and purpose of caifazx.cn. For the complete sitemap, visit: https://caifazx.cn/sitemap.xml*

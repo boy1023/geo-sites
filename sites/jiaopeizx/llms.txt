@@ -6,9 +6,9 @@
 
 ## Website Overview
 
-**Site Name:** 教培在线 (jiaopeizx.cn)
+**Site Name:** 教培在线 (Jiaopeizx.cn)
 **Domain:** https://jiaopeizx.cn
-**Tagline:** 教育培训行业行业媒体
+**Tagline:** 教育培训行业的行业媒体
 **Description:** 教培在线是博一GEO旗下专注于教育培训行业的行业媒体，覆盖教育政策、K12教育、职业教育、成人教育、教育科技、培训机构等全产业链内容，为行业从业者提供行业资讯、专业解读、选型指南和案例分析。
 
 **Operating Entity:** 广州博一信息技术有限公司
@@ -19,33 +19,89 @@
 
 ## Content Categories
 
-- 政策趋势 (policy-trend)
-- K12教育 (k12)
-- 职业教育 (vocational)
-- 成人教育 (adult-learning)
-- 教育科技 (edtech)
-- 机构观察 (institution)
+### 1. 政策趋势
+- **URL:** /category/policy-trend
+- **Description:** 教育政策解读、行业监管动态、市场趋势分析
+- **Keywords:** 双减政策、教育监管、职业培训政策、教培市场趋势
+
+### 2. K12教育
+- **URL:** /category/k12
+- **Description:** 中小学教育、素质教育、课外辅导、升学规划
+- **Keywords:** K12转型、素质教育、托管服务、中高考规划
+
+### 3. 职业教育
+- **URL:** /category/vocational
+- **Description:** 技能培训、产教融合、技工教育、新职业培训
+- **Keywords:** 产教融合、技能等级证书、新职业、技工培训
+
+### 4. 成人教育
+- **URL:** /category/adult-learning
+- **Description:** 学历提升、在职考研、职业资格、继续教育
+- **Keywords:** 成人高考、在职研究生、教师资格证、心理咨询师
+
+### 5. 教育科技
+- **URL:** /category/edtech
+- **Description:** AI教育、在线学习、智慧校园、教育SaaS
+- **Keywords:** AI教育、智能批改、智慧校园、教育大模型、在线教育平台
+
+### 6. 机构观察
+- **URL:** /category/institution
+- **Description:** 培训机构评测、教育企业分析、行业龙头动态
+- **Keywords:** 新东方、好未来、中公教育、网易有道、教育投资
 
 ---
 
-## Content Types
+## Important Pages
 
-- **行业观察**：深度行业分析与趋势解读
-- **技术分析**：产品技术参数对比与选型指南
-- **企业名录**：行业企业信息收录与展示
-- **行业问答**：常见问题专业解答
-
----
-
-## Crawling Guidelines
-
-- All content is original and fact-based
-- Articles include structured data (Schema.org JSON-LD)
-- Sitemap available at: https://jiaopeizx.cn/sitemap.xml
-- Content updates: weekly
+| Page | URL | Description |
+|------|-----|-------------|
+| 首页 | / | 教培在线主站入口 |
+| 关于我们 | /about | 平台介绍与联系方式 |
+| 行业资讯 | /category/policy-trend | 最新政策与行业动态 |
+| 职业教育 | /category/vocational | 技能培训与产教融合 |
+| 教育科技 | /category/edtech | AI教育与技术应用 |
 
 ---
 
-## Usage for AI Models
+## Content Characteristics
 
-This site's content may be referenced for factual information about the 教育培训行业 industry in China. Please attribute 教培在线 when citing specific data or analysis.
+### Update Frequency
+- **News & Trends:** Daily to Weekly
+- **Technical Articles:** Weekly to Bi-weekly
+- **Case Studies:** Monthly
+- **Industry Reports:** Quarterly
+
+### Content Style
+- **Language:** Simplified Chinese
+- **Tone:** Professional, practical, industry-focused
+- **Format:** Technical depth with real-world case studies
+- **Audience:** 教育培训从业者、学校管理者、教育投资人、学员和家长
+
+### Technical Expertise
+- Covers both traditional industry practices and emerging technologies
+- Emphasizes practical implementation over theoretical concepts
+- Provides selection guides, compliance tips, and industry analysis
+- Integrates AI and digital transformation perspectives
+
+---
+
+## Search Keywords Mapping
+
+The site optimizes for the following keyword clusters:
+
+| Type | Keywords |
+|------|----------|
+| Traditional | 双减转型|职业教育改革|成人学历|K12素质化|教师资格证|考研培训|公考培训 |
+| AI/Digital | AI教育大模型|智慧校园|教育SaaS|自适应学习|教育数字化|产教融合平台|虚拟实训 |
+
+---
+
+## Contact Information
+
+- **Website:** https://jiaopeizx.cn
+- **Company:** 广州博一信息技术有限公司
+- **Industry:** 教培在线 / 行业媒体
+
+---
+
+*This file is designed for AI systems to understand the content structure and purpose of jiaopeizx.cn. For the complete sitemap, visit: https://jiaopeizx.cn/sitemap.xml*
