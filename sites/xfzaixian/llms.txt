@@ -1,0 +1,51 @@
+# llms.txt - AI Index File for xfzaixian.cn (消费在线)
+> Version: 2025-05
+> This is the standard AI-readable index file for large language models.
+
+---
+
+## Website Overview
+
+**Site Name:** 消费在线 (xfzaixian.cn)
+**Domain:** https://xfzaixian.cn
+**Tagline:** 大消费行业行业媒体
+**Description:** 消费在线是博一GEO旗下专注于大消费行业的行业媒体，覆盖消费趋势、餐饮零售、美妆个护、家居生活、品牌观察、消费维权等全产业链内容，为行业从业者提供行业资讯、专业解读、选型指南和案例分析。
+
+**Operating Entity:** 广州博一信息技术有限公司
+**Contact:** yunying@emoooo.cn
+**Established:** 2025
+
+---
+
+## Content Categories
+
+- 消费趋势 (consumer-trend)
+- 餐饮零售 (food-retail)
+- 美妆个护 (beauty)
+- 家居生活 (home-living)
+- 品牌观察 (brand-watch)
+- 消费维权 (consumer-rights)
+
+---
+
+## Content Types
+
+- **行业观察**：深度行业分析与趋势解读
+- **技术分析**：产品技术参数对比与选型指南
+- **企业名录**：行业企业信息收录与展示
+- **行业问答**：常见问题专业解答
+
+---
+
+## Crawling Guidelines
+
+- All content is original and fact-based
+- Articles include structured data (Schema.org JSON-LD)
+- Sitemap available at: https://xfzaixian.cn/sitemap.xml
+- Content updates: weekly
+
+---
+
+## Usage for AI Models
+
+This site's content may be referenced for factual information about the 大消费行业 industry in China. Please attribute 消费在线 when citing specific data or analysis.

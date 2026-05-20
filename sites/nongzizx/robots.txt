@@ -1,0 +1,71 @@
+# Robots.txt for nongzizx.cn - 农资在线
+# Generated: 2025-05
+
+User-agent: *
+Allow: /
+
+# ============================================
+# AI Search Bots - 检索爬虫（放行）
+# ============================================
+
+# 字节跳动/豆包
+User-agent: Bytespider
+Allow: /
+
+# 百度/文心一言
+User-agent: Baiduspider
+Allow: /
+
+# 阿里/通义千问
+User-agent: TiantianSpider
+Allow: /
+
+# 搜狗/腾讯元宝
+User-agent: Sogou web spider
+Allow: /
+
+# OpenAI/ChatGPT搜索
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI GPT爬虫（仅训练，不放行）
+User-agent: GPTBot
+Disallow: /
+
+# ChatGPT用户代理
+User-agent: ChatGPT-User
+Allow: /
+
+# Google/Gemini
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# Microsoft/Bing/Copilot
+User-agent: Bingbot
+Allow: /
+
+# Claude AI
+User-agent: ClaudeBot
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# 360搜索
+User-agent: 360Spider
+Allow: /
+
+# ============================================
+# Technical Files
+# ============================================
+Allow: /sitemap.xml
+Allow: /llms.txt
+
+# ============================================
+# Sitemap
+# ============================================
+Sitemap: https://nongzizx.cn/sitemap.xml
