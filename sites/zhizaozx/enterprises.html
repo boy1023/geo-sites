@@ -6,36 +6,30 @@
     <title>企业名录 - 智造在线</title>
     <meta name="description" content="智造在线企业名录，收录智能制造行业20家知名企业信息">
     <link rel="stylesheet" href="/css/style.css">
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": "智造在线企业名录",
-  "description": "收录智能制造行业20家知名企业",
-  "url": "https://zhizaozx.cn/enterprises.html",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "智造在线",
-    "url": "https://zhizaozx.cn"
-  }
-}</script>
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "智造在线",
-      "item": "https://zhizaozx.cn"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "企业名录",
-      "item": "https://zhizaozx.cn/enterprises.html"
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "智造在线企业名录",
+    "description": "收录智能制造行业20家知名企业",
+    "url": "https://zhizaozx.cn/enterprises.html",
+    "isPartOf": {
+        "@type": "WebSite",
+        "name": "智造在线",
+        "url": "https://zhizaozx.cn"
     }
-  ]
-}</script>
+}
+    </script>
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "智造在线", "item": "https://zhizaozx.cn"},
+        {"@type": "ListItem", "position": 2, "name": "企业名录", "item": "https://zhizaozx.cn/enterprises.html"}
+    ]
+}
+    </script>
     <style>
         .filter-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0; }
         .filter-btn { padding: 6px 16px; border: 1px solid #ddd; background: #fff; border-radius: 20px; cursor: pointer; font-size: 0.85rem; transition: all 0.2s; }
@@ -51,16 +45,54 @@
         .enterprise-meta { display: flex; gap: 12px; font-size: 0.8rem; color: #999; margin-bottom: 8px; }
         .category-tag { background: #f0f0f0; padding: 2px 8px; border-radius: 4px; }
         .tags .tag { display: inline-block; background: #f5f5f5; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; color: #888; margin-right: 4px; }
-        .page-header { margin: 30px 0 10px; }
-        .page-header h1 { margin: 0 0 8px; font-size: 1.6rem; }
-        .page-header p { color: #666; margin: 0; }
+        .page-header { text-align: center; padding: 40px 0 20px; }
+        .page-header h1 { margin-bottom: 8px; }
+        .page-header p { color: #666; }
+        .main-content { min-height: 60vh; padding-bottom: 40px; }
     </style>
 </head>
 <body>
-    <nav class="main-nav"><div class="nav-container"><a href="/" class="logo">智造在线</a><div class="nav-links"><a href="/enterprises.html" class="active">企业名录</a><a href="/qna.html">行业问答</a></div></div></nav>
-    <div class="container">
-        <div class="page-header"><h1>企业名录</h1><p>收录智能制造行业 20 家知名企业</p></div>
-        <div class="filter-bar"><button class="filter-btn active" data-filter="all">全部</button>
+    
+    <header class="site-header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="/" class="logo">
+                    <span class="logo-text">智造在线</span>
+                </a>
+                <nav class="main-nav">
+                    <button class="nav-toggle" aria-label="菜单">
+                        <span></span><span></span><span></span>
+                    </button>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="/" class="nav-link">首页</a></li>
+                        <li class="nav-item"><a href="/categories/industry-news.html" class="nav-link">行业资讯</a></li>
+                        <li class="nav-item"><a href="/categories/mechanical-power.html" class="nav-link">机电设备与动力系统</a></li>
+                        <li class="nav-item"><a href="/categories/electrical-control.html" class="nav-link">电气控制与传感</a></li>
+                        <li class="nav-item"><a href="/categories/metal-processing.html" class="nav-link">金属加工与制造</a></li>
+                        <li class="nav-item"><a href="/enterprises.html" class="nav-link active">企业名录</a></li>
+                        <li class="nav-item"><a href="/qna.html" class="nav-link">行业问答</a></li>
+                        <li class="nav-item"><a href="/about.html" class="nav-link">关于我们</a></li>
+                    </ul>
+                </nav>
+                <div class="header-search">
+                    <form action="/search.html" method="get">
+                        <input type="text" name="q" placeholder="搜索文章..." aria-label="搜索">
+                        <button type="submit">🔍</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="page-header">
+                <h1>企业名录</h1>
+                <p>收录智能制造行业 20 家知名企业</p>
+            </div>
+
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">全部</button>
             <button class="filter-btn" data-filter="工业自动化">工业自动化</button>
             <button class="filter-btn" data-filter="工业机器人">工业机器人</button>
             <button class="filter-btn" data-filter="数控设备">数控设备</button>
@@ -69,14 +101,17 @@
             <button class="filter-btn" data-filter="运动控制">运动控制</button>
             <button class="filter-btn" data-filter="系统集成">系统集成</button>
             <button class="filter-btn" data-filter="新能源">新能源</button>
-</div>
-        <div class="enterprise-grid">
+
+            </div>
+
+            <div class="enterprise-grid">
+                
         <div class="enterprise-card" data-category="工业自动化">
             <h3><a href="/enterprises/siemens-china.html">西门子中国</a></h3>
             <p class="short-desc">全球领先的工业自动化与数字化解决方案提供商</p>
             <div class="enterprise-meta">
                 <span class="category-tag">工业自动化</span>
-                <span class="location">北京市朝阳区</span>
+                <span class="location">📍 北京市朝阳区</span>
             </div>
             <div class="tags"><span class="tag">工业自动化</span><span class="tag">PLC</span><span class="tag">MES</span></div>
         </div>
@@ -85,7 +120,7 @@
             <p class="short-desc">电气与自动化领域的技术领导企业</p>
             <div class="enterprise-meta">
                 <span class="category-tag">工业自动化</span>
-                <span class="location">北京市朝阳区</span>
+                <span class="location">📍 北京市朝阳区</span>
             </div>
             <div class="tags"><span class="tag">工业机器人</span><span class="tag">变频器</span><span class="tag">电气自动化</span></div>
         </div>
@@ -94,7 +129,7 @@
             <p class="short-desc">中国工业自动化领域龙头上市企业</p>
             <div class="enterprise-meta">
                 <span class="category-tag">工业自动化</span>
-                <span class="location">深圳市南山区</span>
+                <span class="location">📍 深圳市南山区</span>
             </div>
             <div class="tags"><span class="tag">伺服系统</span><span class="tag">变频器</span><span class="tag">PLC</span></div>
         </div>
@@ -103,7 +138,7 @@
             <p class="short-desc">国产工业机器人领军企业</p>
             <div class="enterprise-meta">
                 <span class="category-tag">工业机器人</span>
-                <span class="location">南京市江宁区</span>
+                <span class="location">📍 南京市江宁区</span>
             </div>
             <div class="tags"><span class="tag">工业机器人</span><span class="tag">焊接机器人</span><span class="tag">国产机器人</span></div>
         </div>
@@ -112,7 +147,7 @@
             <p class="short-desc">国产数控系统骨干企业</p>
             <div class="enterprise-meta">
                 <span class="category-tag">数控设备</span>
-                <span class="location">武汉市东湖高新区</span>
+                <span class="location">📍 武汉市东湖高新区</span>
             </div>
             <div class="tags"><span class="tag">数控系统</span><span class="tag">伺服驱动</span><span class="tag">国产替代</span></div>
         </div>
@@ -121,7 +156,7 @@
             <p class="short-desc">全球领先的工业激光加工设备制造商</p>
             <div class="enterprise-meta">
                 <span class="category-tag">激光设备</span>
-                <span class="location">深圳市南山区</span>
+                <span class="location">📍 深圳市南山区</span>
             </div>
             <div class="tags"><span class="tag">激光切割</span><span class="tag">激光焊接</span><span class="tag">智能制造</span></div>
         </div>
@@ -130,7 +165,7 @@
             <p class="short-desc">中国机器人产业创始企业</p>
             <div class="enterprise-meta">
                 <span class="category-tag">工业机器人</span>
-                <span class="location">沈阳市浑南区</span>
+                <span class="location">📍 沈阳市浑南区</span>
             </div>
             <div class="tags"><span class="tag">工业机器人</span><span class="tag">AGV</span><span class="tag">智能制造</span></div>
         </div>
@@ -139,7 +174,7 @@
             <p class="short-desc">国内低压电器行业龙头企业</p>
             <div class="enterprise-meta">
                 <span class="category-tag">电气控制</span>
-                <span class="location">温州市乐清市</span>
+                <span class="location">📍 温州市乐清市</span>
             </div>
             <div class="tags"><span class="tag">低压电器</span><span class="tag">断路器</span><span class="tag">智能电气</span></div>
         </div>
@@ -148,7 +183,7 @@
             <p class="short-desc">国产伺服系统市场占有率第一</p>
             <div class="enterprise-meta">
                 <span class="category-tag">运动控制</span>
-                <span class="location">深圳市南山区</span>
+                <span class="location">📍 深圳市南山区</span>
             </div>
             <div class="tags"><span class="tag">伺服系统</span><span class="tag">运动控制</span><span class="tag">国产替代</span></div>
         </div>
@@ -157,7 +192,7 @@
             <p class="short-desc">运动控制核心部件供应商</p>
             <div class="enterprise-meta">
                 <span class="category-tag">运动控制</span>
-                <span class="location">深圳市南山区</span>
+                <span class="location">📍 深圳市南山区</span>
             </div>
             <div class="tags"><span class="tag">步进电机</span><span class="tag">运动控制卡</span><span class="tag">伺服驱动</span></div>
         </div>
@@ -166,7 +201,7 @@
             <p class="short-desc">工业物联网与智能控制解决方案提供商</p>
             <div class="enterprise-meta">
                 <span class="category-tag">工业自动化</span>
-                <span class="location">福州市鼓楼区</span>
+                <span class="location">📍 福州市鼓楼区</span>
             </div>
             <div class="tags"><span class="tag">PLC</span><span class="tag">HMI</span><span class="tag">物联网</span></div>
         </div>
@@ -175,7 +210,7 @@
             <p class="short-desc">运动控制核心技术企业</p>
             <div class="enterprise-meta">
                 <span class="category-tag">运动控制</span>
-                <span class="location">深圳市南山区</span>
+                <span class="location">📍 深圳市南山区</span>
             </div>
             <div class="tags"><span class="tag">运动控制</span><span class="tag">机器人控制器</span><span class="tag">算法</span></div>
         </div>
@@ -184,7 +219,7 @@
             <p class="short-desc">全球工业机器人销量冠军在华业务</p>
             <div class="enterprise-meta">
                 <span class="category-tag">工业机器人</span>
-                <span class="location">上海市浦东新区</span>
+                <span class="location">📍 上海市浦东新区</span>
             </div>
             <div class="tags"><span class="tag">工业机器人</span><span class="tag">CNC</span><span class="tag">伺服电机</span></div>
         </div>
@@ -193,7 +228,7 @@
             <p class="short-desc">人机界面与PLC专业厂商</p>
             <div class="enterprise-meta">
                 <span class="category-tag">电气控制</span>
-                <span class="location">上海市浦东新区</span>
+                <span class="location">📍 上海市浦东新区</span>
             </div>
             <div class="tags"><span class="tag">HMI</span><span class="tag">PLC</span><span class="tag">物联网</span></div>
         </div>
@@ -202,7 +237,7 @@
             <p class="short-desc">日本伺服与机器人巨头在华业务</p>
             <div class="enterprise-meta">
                 <span class="category-tag">工业机器人</span>
-                <span class="location">上海市闵行区</span>
+                <span class="location">📍 上海市闵行区</span>
             </div>
             <div class="tags"><span class="tag">伺服电机</span><span class="tag">工业机器人</span><span class="tag">变频器</span></div>
         </div>
@@ -211,7 +246,7 @@
             <p class="short-desc">变频器行业新锐企业</p>
             <div class="enterprise-meta">
                 <span class="category-tag">电气控制</span>
-                <span class="location">深圳市南山区</span>
+                <span class="location">📍 深圳市南山区</span>
             </div>
             <div class="tags"><span class="tag">变频器</span><span class="tag">伺服系统</span><span class="tag">行业专用</span></div>
         </div>
@@ -220,7 +255,7 @@
             <p class="short-desc">焊接机器人系统集成专家</p>
             <div class="enterprise-meta">
                 <span class="category-tag">系统集成</span>
-                <span class="location">广州市黄埔区</span>
+                <span class="location">📍 广州市黄埔区</span>
             </div>
             <div class="tags"><span class="tag">焊接机器人</span><span class="tag">系统集成</span><span class="tag">汽车制造</span></div>
         </div>
@@ -229,7 +264,7 @@
             <p class="short-desc">流程工业自动化龙头企业</p>
             <div class="enterprise-meta">
                 <span class="category-tag">工业自动化</span>
-                <span class="location">杭州市滨江区</span>
+                <span class="location">📍 杭州市滨江区</span>
             </div>
             <div class="tags"><span class="tag">DCS</span><span class="tag">工业软件</span><span class="tag">流程工业</span></div>
         </div>
@@ -238,7 +273,7 @@
             <p class="short-desc">数控系统细分市场领导者</p>
             <div class="enterprise-meta">
                 <span class="category-tag">数控设备</span>
-                <span class="location">上海市闵行区</span>
+                <span class="location">📍 上海市闵行区</span>
             </div>
             <div class="tags"><span class="tag">数控系统</span><span class="tag">运动控制</span><span class="tag">雕刻机</span></div>
         </div>
@@ -247,11 +282,72 @@
             <p class="short-desc">光伏与储能解决方案提供商</p>
             <div class="enterprise-meta">
                 <span class="category-tag">新能源</span>
-                <span class="location">杭州市滨江区</span>
+                <span class="location">📍 杭州市滨江区</span>
             </div>
             <div class="tags"><span class="tag">光伏</span><span class="tag">储能</span><span class="tag">智能微电网</span></div>
-        </div></div>
-    </div>
-    <footer><div class="footer-content"><div class="footer-info"><h4>智造在线</h4><ul><li>邮箱：yunying@emoooo.cn</li><li>电话：13025181023</li></ul></div></div><div class="footer-bottom"><p>&copy; 2025 智造在线 版权所有</p><p><a href="/about.html">关于我们</a> | <a href="/privacy.html">隐私政策</a></p></div></footer>
-    <script>document.querySelectorAll('.filter-btn').forEach(btn=>{btn.addEventListener('click',function(){document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));this.classList.add('active');const f=this.dataset.filter;document.querySelectorAll('.enterprise-card').forEach(c=>{c.style.display=(f==='all'||c.dataset.category===f)?'':'none'})})});</script>
-</body></html>
+        </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-about">
+                    <h3>智造在线</h3>
+                    <p>智能制造行业权威资讯平台，为从业者提供专业、前沿的行业资讯。</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="/">首页</a></li>
+                        <li><a href="/enterprises.html">企业名录</a></li>
+                        <li><a href="/qna.html">行业问答</a></li>
+                        <li><a href="/about.html">关于我们</a></li>
+                        <li><a href="/sitemap.xml">网站地图</a></li>
+                    </ul>
+                </div>
+                <div class="footer-categories">
+                    <h4>行业分类</h4>
+                    <ul>
+                        <li><a href="/categories/industry-news.html">行业资讯</a></li>
+                        <li><a href="/categories/">更多分类</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>联系我们</h4>
+                    <ul>
+                        <li>邮箱：yunying@emoooo.cn</li>
+                        <li>电话：13025181023</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 智造在线 版权所有</p>
+                <p>
+                    <a href="/about.html">关于我们</a> | 
+                    <a href="/privacy.html">隐私政策</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                const filter = this.dataset.filter;
+                document.querySelectorAll('.enterprise-card').forEach(card => {
+                    if (filter === 'all' || card.dataset.category === filter) {
+                        card.style.display = '';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

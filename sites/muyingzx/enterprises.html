@@ -6,36 +6,30 @@
     <title>企业名录 - 母婴在线</title>
     <meta name="description" content="母婴在线企业名录，收录母婴行业20家知名企业信息">
     <link rel="stylesheet" href="/css/style.css">
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": "母婴在线企业名录",
-  "description": "收录母婴行业20家知名企业",
-  "url": "https://muyingzx.cn/enterprises.html",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "母婴在线",
-    "url": "https://muyingzx.cn"
-  }
-}</script>
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "母婴在线",
-      "item": "https://muyingzx.cn"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "企业名录",
-      "item": "https://muyingzx.cn/enterprises.html"
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "母婴在线企业名录",
+    "description": "收录母婴行业20家知名企业",
+    "url": "https://muyingzx.cn/enterprises.html",
+    "isPartOf": {
+        "@type": "WebSite",
+        "name": "母婴在线",
+        "url": "https://muyingzx.cn"
     }
-  ]
-}</script>
+}
+    </script>
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "母婴在线", "item": "https://muyingzx.cn"},
+        {"@type": "ListItem", "position": 2, "name": "企业名录", "item": "https://muyingzx.cn/enterprises.html"}
+    ]
+}
+    </script>
     <style>
         .filter-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0; }
         .filter-btn { padding: 6px 16px; border: 1px solid #ddd; background: #fff; border-radius: 20px; cursor: pointer; font-size: 0.85rem; transition: all 0.2s; }
@@ -51,16 +45,54 @@
         .enterprise-meta { display: flex; gap: 12px; font-size: 0.8rem; color: #999; margin-bottom: 8px; }
         .category-tag { background: #f0f0f0; padding: 2px 8px; border-radius: 4px; }
         .tags .tag { display: inline-block; background: #f5f5f5; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; color: #888; margin-right: 4px; }
-        .page-header { margin: 30px 0 10px; }
-        .page-header h1 { margin: 0 0 8px; font-size: 1.6rem; }
-        .page-header p { color: #666; margin: 0; }
+        .page-header { text-align: center; padding: 40px 0 20px; }
+        .page-header h1 { margin-bottom: 8px; }
+        .page-header p { color: #666; }
+        .main-content { min-height: 60vh; padding-bottom: 40px; }
     </style>
 </head>
 <body>
-    <nav class="main-nav"><div class="nav-container"><a href="/" class="logo">母婴在线</a><div class="nav-links"><a href="/enterprises.html" class="active">企业名录</a><a href="/qna.html">行业问答</a></div></div></nav>
-    <div class="container">
-        <div class="page-header"><h1>企业名录</h1><p>收录母婴行业 20 家知名企业</p></div>
-        <div class="filter-bar"><button class="filter-btn active" data-filter="all">全部</button>
+    
+    <header class="site-header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="/" class="logo">
+                    <span class="logo-text">母婴在线</span>
+                </a>
+                <nav class="main-nav">
+                    <button class="nav-toggle" aria-label="菜单">
+                        <span></span><span></span><span></span>
+                    </button>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="/" class="nav-link">首页</a></li>
+                        <li class="nav-item"><a href="/categories/industry-news.html" class="nav-link">行业资讯</a></li>
+                        <li class="nav-item"><a href="/categories/formula-food.html" class="nav-link">奶粉辅食</a></li>
+                        <li class="nav-item"><a href="/categories/baby-products.html" class="nav-link">母婴用品</a></li>
+                        <li class="nav-item"><a href="/categories/parenting.html" class="nav-link">育儿教育</a></li>
+                        <li class="nav-item"><a href="/enterprises.html" class="nav-link active">企业名录</a></li>
+                        <li class="nav-item"><a href="/qna.html" class="nav-link">行业问答</a></li>
+                        <li class="nav-item"><a href="/about.html" class="nav-link">关于我们</a></li>
+                    </ul>
+                </nav>
+                <div class="header-search">
+                    <form action="/search.html" method="get">
+                        <input type="text" name="q" placeholder="搜索文章..." aria-label="搜索">
+                        <button type="submit">🔍</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="page-header">
+                <h1>企业名录</h1>
+                <p>收录母婴行业 20 家知名企业</p>
+            </div>
+
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">全部</button>
             <button class="filter-btn" data-filter="奶粉辅食">奶粉辅食</button>
             <button class="filter-btn" data-filter="婴童用品">婴童用品</button>
             <button class="filter-btn" data-filter="纸尿裤">纸尿裤</button>
@@ -71,14 +103,17 @@
             <button class="filter-btn" data-filter="母婴零售">母婴零售</button>
             <button class="filter-btn" data-filter="洗护用品">洗护用品</button>
             <button class="filter-btn" data-filter="童装">童装</button>
-</div>
-        <div class="enterprise-grid">
+
+            </div>
+
+            <div class="enterprise-grid">
+                
         <div class="enterprise-card" data-category="奶粉辅食">
             <h3><a href="/enterprises/feihe-dairy.html">飞鹤奶粉</a></h3>
             <p class="short-desc">中国婴幼儿奶粉市场份额第一</p>
             <div class="enterprise-meta">
                 <span class="category-tag">奶粉辅食</span>
-                <span class="location">北京市朝阳区</span>
+                <span class="location">📍 北京市朝阳区</span>
             </div>
             <div class="tags"><span class="tag">奶粉</span><span class="tag">婴幼儿配方奶粉</span><span class="tag">国产奶粉</span></div>
         </div>
@@ -87,7 +122,7 @@
             <p class="short-desc">高端婴幼儿营养品牌</p>
             <div class="enterprise-meta">
                 <span class="category-tag">奶粉辅食</span>
-                <span class="location">广州市黄埔区</span>
+                <span class="location">📍 广州市黄埔区</span>
             </div>
             <div class="tags"><span class="tag">益生菌</span><span class="tag">奶粉</span><span class="tag">营养品</span></div>
         </div>
@@ -96,7 +131,7 @@
             <p class="short-desc">新一代母婴消费品牌</p>
             <div class="enterprise-meta">
                 <span class="category-tag">婴童用品</span>
-                <span class="location">杭州市滨江区</span>
+                <span class="location">📍 杭州市滨江区</span>
             </div>
             <div class="tags"><span class="tag">纸尿裤</span><span class="tag">设计品牌</span><span class="tag">新消费</span></div>
         </div>
@@ -105,7 +140,7 @@
             <p class="short-desc">全球领先的儿童用品集团</p>
             <div class="enterprise-meta">
                 <span class="category-tag">婴童用品</span>
-                <span class="location">昆山市玉山镇</span>
+                <span class="location">📍 昆山市玉山镇</span>
             </div>
             <div class="tags"><span class="tag">婴儿推车</span><span class="tag">安全座椅</span><span class="tag">儿童用品</span></div>
         </div>
@@ -114,7 +149,7 @@
             <p class="short-desc">日本母婴用品品牌在华业务</p>
             <div class="enterprise-meta">
                 <span class="category-tag">婴童用品</span>
-                <span class="location">上海市长宁区</span>
+                <span class="location">📍 上海市长宁区</span>
             </div>
             <div class="tags"><span class="tag">奶瓶</span><span class="tag">奶嘴</span><span class="tag">婴儿护肤</span></div>
         </div>
@@ -123,7 +158,7 @@
             <p class="short-desc">日本高端纸尿裤品牌</p>
             <div class="enterprise-meta">
                 <span class="category-tag">纸尿裤</span>
-                <span class="location">上海市浦东新区</span>
+                <span class="location">📍 上海市浦东新区</span>
             </div>
             <div class="tags"><span class="tag">纸尿裤</span><span class="tag">进口品牌</span><span class="tag">花王</span></div>
         </div>
@@ -132,7 +167,7 @@
             <p class="short-desc">伊利旗下婴幼儿奶粉品牌</p>
             <div class="enterprise-meta">
                 <span class="category-tag">奶粉辅食</span>
-                <span class="location">呼和浩特市土左旗</span>
+                <span class="location">📍 呼和浩特市土左旗</span>
             </div>
             <div class="tags"><span class="tag">奶粉</span><span class="tag">母乳研究</span><span class="tag">国产奶粉</span></div>
         </div>
@@ -141,7 +176,7 @@
             <p class="short-desc">国产儿童安全座椅品牌</p>
             <div class="enterprise-meta">
                 <span class="category-tag">安全座椅</span>
-                <span class="location">宁波市江北区</span>
+                <span class="location">📍 宁波市江北区</span>
             </div>
             <div class="tags"><span class="tag">安全座椅</span><span class="tag">ECE认证</span><span class="tag">国产替代</span></div>
         </div>
@@ -150,7 +185,7 @@
             <p class="short-desc">新锐纸尿裤品牌</p>
             <div class="enterprise-meta">
                 <span class="category-tag">纸尿裤</span>
-                <span class="location">北京市朝阳区</span>
+                <span class="location">📍 北京市朝阳区</span>
             </div>
             <div class="tags"><span class="tag">纸尿裤</span><span class="tag">极薄</span><span class="tag">新消费</span></div>
         </div>
@@ -159,7 +194,7 @@
             <p class="short-desc">高端婴幼儿辅食品牌</p>
             <div class="enterprise-meta">
                 <span class="category-tag">奶粉辅食</span>
-                <span class="location">长沙市岳麓区</span>
+                <span class="location">📍 长沙市岳麓区</span>
             </div>
             <div class="tags"><span class="tag">辅食</span><span class="tag">米粉</span><span class="tag">分阶喂养</span></div>
         </div>
@@ -168,7 +203,7 @@
             <p class="short-desc">美泰旗下婴幼儿玩具品牌</p>
             <div class="enterprise-meta">
                 <span class="category-tag">玩具</span>
-                <span class="location">上海市黄浦区</span>
+                <span class="location">📍 上海市黄浦区</span>
             </div>
             <div class="tags"><span class="tag">益智玩具</span><span class="tag">婴幼儿玩具</span><span class="tag">进口品牌</span></div>
         </div>
@@ -177,7 +212,7 @@
             <p class="short-desc">国产纸尿裤品牌</p>
             <div class="enterprise-meta">
                 <span class="category-tag">纸尿裤</span>
-                <span class="location">泉州市晋江市</span>
+                <span class="location">📍 泉州市晋江市</span>
             </div>
             <div class="tags"><span class="tag">纸尿裤</span><span class="tag">性价比</span><span class="tag">下沉市场</span></div>
         </div>
@@ -186,7 +221,7 @@
             <p class="short-desc">瑞士吸奶器专业品牌</p>
             <div class="enterprise-meta">
                 <span class="category-tag">哺乳用品</span>
-                <span class="location">上海市静安区</span>
+                <span class="location">📍 上海市静安区</span>
             </div>
             <div class="tags"><span class="tag">吸奶器</span><span class="tag">哺乳用品</span><span class="tag">瑞士品牌</span></div>
         </div>
@@ -195,7 +230,7 @@
             <p class="short-desc">儿童平衡车品牌</p>
             <div class="enterprise-meta">
                 <span class="category-tag">婴童用品</span>
-                <span class="location">深圳市南山区</span>
+                <span class="location">📍 深圳市南山区</span>
             </div>
             <div class="tags"><span class="tag">平衡车</span><span class="tag">儿童运动</span><span class="tag">设计品牌</span></div>
         </div>
@@ -204,7 +239,7 @@
             <p class="short-desc">婴幼儿营养品品牌</p>
             <div class="enterprise-meta">
                 <span class="category-tag">营养品</span>
-                <span class="location">广州市天河区</span>
+                <span class="location">📍 广州市天河区</span>
             </div>
             <div class="tags"><span class="tag">营养品</span><span class="tag">DHA</span><span class="tag">维生素D</span></div>
         </div>
@@ -213,7 +248,7 @@
             <p class="short-desc">全球婴幼儿奶粉巨头在华业务</p>
             <div class="enterprise-meta">
                 <span class="category-tag">奶粉辅食</span>
-                <span class="location">上海市浦东新区</span>
+                <span class="location">📍 上海市浦东新区</span>
             </div>
             <div class="tags"><span class="tag">奶粉</span><span class="tag">启赋</span><span class="tag">进口品牌</span></div>
         </div>
@@ -222,7 +257,7 @@
             <p class="short-desc">母婴零售连锁龙头企业</p>
             <div class="enterprise-meta">
                 <span class="category-tag">母婴零售</span>
-                <span class="location">南京市建邺区</span>
+                <span class="location">📍 南京市建邺区</span>
             </div>
             <div class="tags"><span class="tag">母婴零售</span><span class="tag">连锁门店</span><span class="tag">育儿服务</span></div>
         </div>
@@ -231,7 +266,7 @@
             <p class="short-desc">金佰利旗下纸尿裤品牌</p>
             <div class="enterprise-meta">
                 <span class="category-tag">纸尿裤</span>
-                <span class="location">上海市徐汇区</span>
+                <span class="location">📍 上海市徐汇区</span>
             </div>
             <div class="tags"><span class="tag">纸尿裤</span><span class="tag">金佰利</span><span class="tag">进口品牌</span></div>
         </div>
@@ -240,7 +275,7 @@
             <p class="short-desc">婴幼儿洗护品牌</p>
             <div class="enterprise-meta">
                 <span class="category-tag">洗护用品</span>
-                <span class="location">杭州市余杭区</span>
+                <span class="location">📍 杭州市余杭区</span>
             </div>
             <div class="tags"><span class="tag">婴幼儿洗护</span><span class="tag">沐浴露</span><span class="tag">国产替代</span></div>
         </div>
@@ -249,11 +284,72 @@
             <p class="short-desc">荷兰IP授权童装品牌</p>
             <div class="enterprise-meta">
                 <span class="category-tag">童装</span>
-                <span class="location">上海市闵行区</span>
+                <span class="location">📍 上海市闵行区</span>
             </div>
             <div class="tags"><span class="tag">童装</span><span class="tag">IP授权</span><span class="tag">米菲</span></div>
-        </div></div>
-    </div>
-    <footer><div class="footer-content"><div class="footer-info"><h4>母婴在线</h4><ul><li>邮箱：yunying@emoooo.cn</li><li>电话：13025181023</li></ul></div></div><div class="footer-bottom"><p>&copy; 2025 母婴在线 版权所有</p><p><a href="/about.html">关于我们</a> | <a href="/privacy.html">隐私政策</a></p></div></footer>
-    <script>document.querySelectorAll('.filter-btn').forEach(btn=>{btn.addEventListener('click',function(){document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));this.classList.add('active');const f=this.dataset.filter;document.querySelectorAll('.enterprise-card').forEach(c=>{c.style.display=(f==='all'||c.dataset.category===f)?'':'none'})})});</script>
-</body></html>
+        </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-about">
+                    <h3>母婴在线</h3>
+                    <p>母婴行业权威资讯平台，为从业者提供专业、前沿的行业资讯。</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="/">首页</a></li>
+                        <li><a href="/enterprises.html">企业名录</a></li>
+                        <li><a href="/qna.html">行业问答</a></li>
+                        <li><a href="/about.html">关于我们</a></li>
+                        <li><a href="/sitemap.xml">网站地图</a></li>
+                    </ul>
+                </div>
+                <div class="footer-categories">
+                    <h4>行业分类</h4>
+                    <ul>
+                        <li><a href="/categories/industry-news.html">行业资讯</a></li>
+                        <li><a href="/categories/">更多分类</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>联系我们</h4>
+                    <ul>
+                        <li>邮箱：yunying@emoooo.cn</li>
+                        <li>电话：13025181023</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 母婴在线 版权所有</p>
+                <p>
+                    <a href="/about.html">关于我们</a> | 
+                    <a href="/privacy.html">隐私政策</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                const filter = this.dataset.filter;
+                document.querySelectorAll('.enterprise-card').forEach(card => {
+                    if (filter === 'all' || card.dataset.category === filter) {
+                        card.style.display = '';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

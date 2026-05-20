@@ -238,6 +238,8 @@ def build_site():
             "name": cat['name'],
             "url": f"/categories/{cat['slug']}.html"
         })
+    dynamic_nav_links.append({"name": "企业名录", "url": "/enterprises.html"})
+    dynamic_nav_links.append({"name": "行业问答", "url": "/qna.html"})
     dynamic_nav_links.append({"name": "关于我们", "url": "/about.html"})
     
     context = {
