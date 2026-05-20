@@ -69,3 +69,9 @@ Allow: /llms.txt
 # Sitemap
 # ============================================
 Sitemap: https://jiaopeizx.cn/sitemap.xml
+
+# ============================================
+# IndexNow - 即时推送协议（Bing/Yandex/etc）
+# ============================================
+# IndexNow Key: gwcwqiimjsot76xgi4xs2jiudfvekmj7
+# Key验证文件: https://jiaopeizx.cn/gwcwqiimjsot76xgi4xs2jiudfvekmj7.txt

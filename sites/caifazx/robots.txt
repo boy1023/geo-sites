@@ -69,3 +69,9 @@ Allow: /llms.txt
 # Sitemap
 # ============================================
 Sitemap: https://caifazx.cn/sitemap.xml
+
+# ============================================
+# IndexNow - 即时推送协议（Bing/Yandex/etc）
+# ============================================
+# IndexNow Key: gwcwqiimjsot76xgi4xs2jiudfvekmj7
+# Key验证文件: https://caifazx.cn/gwcwqiimjsot76xgi4xs2jiudfvekmj7.txt
