@@ -134,7 +134,7 @@ def generate_footer(config):
                 <p>© 2025 ''' + config['name'] + ''' 版权所有</p>
                 <p>
                     <a href="/about.html">关于我们</a> | 
-                    <a href="/privacy.html">隐私政策</a>
+                    <a href="/about.html">关于我们</a> | <a href="/privacy.html">隐私政策</a>
                 </p>
             </div>
         </div>
