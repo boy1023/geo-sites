@@ -336,4 +336,11 @@
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.3</ns0:priority>
   </ns0:url>
-<url><loc>https://nongzizx.cn/articles/dji-t100-agricultural-drone-review.html</loc><lastmod>2025-04-18</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url><loc>https://nongzizx.cn/articles/syngenta-china-business-analysis.html</loc><lastmod>2025-03-05</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url><loc>https://nongzizx.cn/articles/longping-rice-varieties-analysis.html</loc><lastmod>2025-06-02</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url></ns0:urlset>
+<url><loc>https://nongzizx.cn/articles/dji-t100-agricultural-drone-review.html</loc><lastmod>2025-04-18</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url><loc>https://nongzizx.cn/articles/syngenta-china-business-analysis.html</loc><lastmod>2025-03-05</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url><loc>https://nongzizx.cn/articles/longping-rice-varieties-analysis.html</loc><lastmod>2025-06-02</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>  <ns0:url>
+    <ns0:loc>https://nongzizx.cn/articles/fertilizer-price-trend-2025.html</ns0:loc>
+    <ns0:lastmod>2025-05-21</ns0:lastmod>
+    <ns0:changefreq>weekly</ns0:changefreq>
+    <ns0:priority>0.7</ns0:priority>
+  </ns0:url>
+
+</ns0:urlset>

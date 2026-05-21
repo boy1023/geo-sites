@@ -414,4 +414,11 @@
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.3</ns0:priority>
   </ns0:url>
-<url><loc>https://zhizaozx.cn/articles/fanuc-crx-collaborative-robot-review.html</loc><lastmod>2025-03-08</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url><loc>https://zhizaozx.cn/articles/inovance-tech-rise-manufacturing.html</loc><lastmod>2025-06-18</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url><loc>https://zhizaozx.cn/articles/hans-laser-vs-trumpf-laser-cutting.html</loc><lastmod>2025-05-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url><loc>https://zhizaozx.cn/articles/siemens-s7-1500-vs-inovance-h5u.html</loc><lastmod>2025-02-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url><loc>https://zhizaozx.cn/articles/huawei-fusionplant-industrial-iot.html</loc><lastmod>2025-04-22</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url></ns0:urlset>
+<url><loc>https://zhizaozx.cn/articles/fanuc-crx-collaborative-robot-review.html</loc><lastmod>2025-03-08</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url><loc>https://zhizaozx.cn/articles/inovance-tech-rise-manufacturing.html</loc><lastmod>2025-06-18</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url><loc>https://zhizaozx.cn/articles/hans-laser-vs-trumpf-laser-cutting.html</loc><lastmod>2025-05-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url><loc>https://zhizaozx.cn/articles/siemens-s7-1500-vs-inovance-h5u.html</loc><lastmod>2025-02-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url><loc>https://zhizaozx.cn/articles/huawei-fusionplant-industrial-iot.html</loc><lastmod>2025-04-22</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>  <ns0:url>
+    <ns0:loc>https://zhizaozx.cn/articles/industrial-ai-2025-real-cases.html</ns0:loc>
+    <ns0:lastmod>2025-05-21</ns0:lastmod>
+    <ns0:changefreq>weekly</ns0:changefreq>
+    <ns0:priority>0.7</ns0:priority>
+  </ns0:url>
+
+</ns0:urlset>
